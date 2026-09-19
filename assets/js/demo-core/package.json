@@ -1,0 +1,32 @@
+{
+  "description": "Shared canvas/math primitives for samlowe.dev's interactive article demos: DPR-aware canvas setup, CSS-custom-property theming, nice tick generation, OLS fitting, axis rendering, and the resize/mode-toggle/init wiring every demo repeats.",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "canvas",
+    "data-visualization",
+    "math",
+    "education"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "demo-core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samlowe106/demo-core.git"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
