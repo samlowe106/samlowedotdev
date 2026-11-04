@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="790" viewBox="0 0 1000 790">
+<style>/*<![CDATA[*/:root{--paper:#ffffff;--ink:#626f80;--slate:#626f80;--sky:#46758d;--rose:#a05268;--amber:#956500;--green:#24753c;--sky-fill:#d4dfe5;--rose-fill:#e9d7dc;--amber-fill:#e7dcc4;--slate-fill:#dbdee2;}@media(prefers-color-scheme:dark){:root{--paper:#1b1b1e;--ink:#99a5b5;--slate:#99a5b5;--sky:#59b9e6;--rose:#df7c90;--amber:#e6b84f;--green:#63d58a;--sky-fill:#293f4c;--rose-fill:#483138;--amber-fill:#4a3f29;--slate-fill:#383b41;}}text{fill:var(--ink);font-family:system-ui,sans-serif;font-size:20px}.face{fill:var(--paper);stroke:var(--ink);stroke-opacity:.25;stroke-width:.65;stroke-linejoin:round}.chain{fill:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}.title{font-size:25px;font-weight:600}.legend{font-size:18px}.formula{font-family:serif;font-size:27px}.math{font-family:serif;font-size:27px}.on-arrow{font-family:serif;font-size:24px;paint-order:stroke;stroke:var(--paper);stroke-width:7px;stroke-linejoin:round}/*]]>*/</style>
+<defs>
+<g id="d0">
+<polygon points="28.5,-47.4 0,-53 0,-45.3" class="face" />
+<polygon points="0,-45.3 -28.5,-54.8 0,-53" class="face" />
+<polygon points="54.7,-38.1 28.5,-47.4 24.4,-41.8" class="face" />
+<polygon points="28.5,-47.4 0,-45.3 24.4,-41.8" class="face" />
+<polygon points="0,-45.3 -24.4,-45.5 -28.5,-54.8" class="face" />
+<polygon points="-24.4,-45.5 -54.7,-52.8 -28.5,-54.8" class="face" />
+<polygon points="54.7,-38.1 24.4,-41.8 46.9,-35.3" class="face" />
+<polygon points="76.4,-25.8 54.7,-38.1 46.9,-35.3" class="face" />
+<polygon points="24.4,-41.8 0,-45.3 0,-37.5" class="face" />
+<polygon points="0,-37.5 -24.4,-45.5 0,-45.3" class="face" />
+<polygon points="-24.4,-45.5 -46.9,-42.7 -54.7,-52.8" class="face" />
+<polygon points="46.9,-35.3 24.4,-41.8 20.2,-36.3" class="face" />
+<polygon points="24.4,-41.8 0,-37.5 20.2,-36.3" class="face" />
+<polygon points="-20.2,-36.3 -46.9,-42.7 -24.4,-45.5" class="face" />
+<polygon points="0,-37.5 -20.2,-36.3 -24.4,-45.5" class="face" />
+<polygon points="-46.9,-42.7 -76.4,-47.5 -54.7,-52.8" class="face" />
+<polygon points="76.4,-25.8 46.9,-35.3 65.8,-26.2" class="face" />
+<polygon points="46.9,-35.3 20.2,-36.3 39.1,-32.5" class="face" />
+<polygon points="-20.2,-36.3 -39.1,-32.5 -46.9,-42.7" class="face" />
+<polygon points="65.8,-26.2 46.9,-35.3 39.1,-32.5" class="face" />
+<polygon points="0,-29.8 -20.2,-36.3 0,-37.5" class="face" />
+<polygon points="20.2,-36.3 0,-37.5 0,-29.8" class="face" />
+<polygon points="91.9,-11.3 76.4,-25.8 65.8,-26.2" class="face" />
+<polygon points="-46.9,-42.7 -65.8,-37 -76.4,-47.5" class="face" />
+<polygon points="-39.1,-32.5 -65.8,-37 -46.9,-42.7" class="face" />
+<polygon points="-16.1,-27 -39.1,-32.5 -20.2,-36.3" class="face" />
+<polygon points="39.1,-32.5 20.2,-36.3 16.1,-30.7" class="face" />
+<polygon points="0,-29.8 -16.1,-27 -20.2,-36.3" class="face" />
+<polygon points="20.2,-36.3 0,-29.8 16.1,-30.7" class="face" />
+<polygon points="65.8,-26.2 39.1,-32.5 55.3,-26.5" class="face" />
+<polygon points="-39.1,-32.5 -55.3,-26.5 -65.8,-37" class="face" />
+<polygon points="-16.1,-27 -31.3,-22.4 -39.1,-32.5" class="face" />
+<polygon points="91.9,-11.3 65.8,-26.2 79.8,-15" class="face" />
+<polygon points="-31.3,-22.4 -55.3,-26.5 -39.1,-32.5" class="face" />
+<polygon points="39.1,-32.5 16.1,-30.7 31.3,-29.7" class="face" />
+<polygon points="-65.8,-37 -91.9,-39.6 -76.4,-47.5" class="face" />
+<polygon points="79.8,-15 65.8,-26.2 55.3,-26.5" class="face" />
+<polygon points="55.3,-26.5 39.1,-32.5 31.3,-29.7" class="face" />
+<polygon points="0,-22 -16.1,-27 0,-29.8" class="face" />
+<polygon points="16.1,-30.7 0,-29.8 0,-22" class="face" />
+<polygon points="-12,-17.7 -31.3,-22.4 -16.1,-27" class="face" />
+<polygon points="-31.3,-22.4 -44.7,-16.1 -55.3,-26.5" class="face" />
+<polygon points="-55.3,-26.5 -79.8,-29.2 -65.8,-37" class="face" />
+<polygon points="0,-22 -12,-17.7 -16.1,-27" class="face" />
+<polygon points="31.3,-29.7 16.1,-30.7 12,-25.1" class="face" />
+<polygon points="100.3,4.3 91.9,-11.3 79.8,-15" class="face" />
+<polygon points="-23.5,-12.2 -44.7,-16.1 -31.3,-22.4" class="face" />
+<polygon points="-12,-17.7 -23.5,-12.2 -31.3,-22.4" class="face" />
+<polygon points="55.3,-26.5 31.3,-29.7 44.7,-26.9" class="face" />
+<polygon points="-65.8,-37 -79.8,-29.2 -91.9,-39.6" class="face" />
+<polygon points="16.1,-30.7 0,-22 12,-25.1" class="face" />
+<polygon points="79.8,-15 55.3,-26.5 67.7,-18.8" class="face" />
+<polygon points="-44.7,-16.1 -67.7,-18.8 -55.3,-26.5" class="face" />
+<polygon points="-55.3,-26.5 -67.7,-18.8 -79.8,-29.2" class="face" />
+<polygon points="67.7,-18.8 55.3,-26.5 44.7,-26.9" class="face" />
+<polygon points="-23.5,-12.2 -34.2,-5.6 -44.7,-16.1" class="face" />
+<polygon points="31.3,-29.7 12,-25.1 23.5,-26.9" class="face" />
+<polygon points="44.7,-26.9 31.3,-29.7 23.5,-26.9" class="face" />
+<polygon points="-34.2,-5.6 -55.6,-8.3 -44.7,-16.1" class="face" />
+<polygon points="-44.7,-16.1 -55.6,-8.3 -67.7,-18.8" class="face" />
+<polygon points="87.9,-2.7 79.8,-15 67.7,-18.8" class="face" />
+<polygon points="100.3,4.3 79.8,-15 87.9,-2.7" class="face" />
+<polygon points="-34.2,-5.6 -43.5,2.1 -55.6,-8.3" class="face" />
+<polygon points="67.7,-18.8 44.7,-26.9 55.6,-22.5" class="face" />
+<polygon points="44.7,-26.9 23.5,-26.9 34.2,-27.3" class="face" />
+<polygon points="-79.8,-29.2 -100.3,-30.1 -91.9,-39.6" class="face" />
+<polygon points="-67.7,-18.8 -87.9,-19.9 -79.8,-29.2" class="face" />
+<polygon points="55.6,-22.5 44.7,-26.9 34.2,-27.3" class="face" />
+<polygon points="-55.6,-8.3 -75.5,-9.7 -67.7,-18.8" class="face" />
+<polygon points="-43.5,2.1 -63.2,0.5 -55.6,-8.3" class="face" />
+<polygon points="87.9,-2.7 67.7,-18.8 75.5,-9.7" class="face" />
+<polygon points="75.5,-9.7 67.7,-18.8 55.6,-22.5" class="face" />
+<polygon points="-43.5,2.1 -50.8,10.7 -63.2,0.5" class="face" />
+<polygon points="101,20 100.3,4.3 87.9,-2.7" class="face" />
+<polygon points="-55.6,-8.3 -63.2,0.5 -75.5,-9.7" class="face" />
+<polygon points="-67.7,-18.8 -75.5,-9.7 -87.9,-19.9" class="face" />
+<polygon points="-79.8,-29.2 -87.9,-19.9 -100.3,-30.1" class="face" />
+<polygon points="55.6,-22.5 34.2,-27.3 43.5,-26.2" class="face" />
+<polygon points="75.5,-9.7 55.6,-22.5 63.2,-16.7" class="face" />
+<polygon points="63.2,-16.7 55.6,-22.5 43.5,-26.2" class="face" />
+<polygon points="89.6,10 87.9,-2.7 75.5,-9.7" class="face" />
+<polygon points="-50.8,10.7 -66.8,10 -63.2,0.5" class="face" />
+<polygon points="101,20 87.9,-2.7 89.6,10" class="face" />
+<polygon points="-50.8,10.7 -55.4,20 -66.8,10" class="face" />
+<polygon points="-63.2,0.5 -78.2,-0 -75.5,-9.7" class="face" />
+<polygon points="-75.5,-9.7 -89.6,-10 -87.9,-19.9" class="face" />
+<polygon points="78.2,0 75.5,-9.7 63.2,-16.7" class="face" />
+<polygon points="63.2,-16.7 43.5,-26.2 50.8,-23.8" class="face" />
+<polygon points="-63.2,0.5 -66.8,10 -78.2,-0" class="face" />
+<polygon points="89.6,10 75.5,-9.7 78.2,0" class="face" />
+<polygon points="-87.9,-19.9 -101,-20 -100.3,-30.1" class="face" />
+<polygon points="-75.5,-9.7 -78.2,-0 -89.6,-10" class="face" />
+<polygon points="66.8,-10 63.2,-16.7 50.8,-23.8" class="face" />
+<polygon points="-55.4,20 -66,19.7 -66.8,10" class="face" />
+<polygon points="94.5,34.6 101,20 89.6,10" class="face" />
+<polygon points="78.2,0 63.2,-16.7 66.8,-10" class="face" />
+<polygon points="-55.4,20 -56.5,29.7 -66,19.7" class="face" />
+<polygon points="-87.9,-19.9 -89.6,-10 -101,-20" class="face" />
+<polygon points="85,22.2 89.6,10 78.2,0" class="face" />
+<polygon points="-66.8,10 -75.5,9.7 -78.2,-0" class="face" />
+<polygon points="66.8,-10 50.8,-23.8 55.4,-20" class="face" />
+<polygon points="94.5,34.6 89.6,10 85,22.2" class="face" />
+<polygon points="-66.8,10 -66,19.7 -75.5,9.7" class="face" />
+<polygon points="75.5,9.7 78.2,0 66.8,-10" class="face" />
+<polygon points="85,22.2 78.2,0 75.5,9.7" class="face" />
+<polygon points="-78.2,-0 -85,-0.3 -89.6,-10" class="face" />
+<polygon points="-56.5,29.7 -60.7,29.1 -66,19.7" class="face" />
+<polygon points="66,-2.7 66.8,-10 55.4,-20" class="face" />
+<polygon points="-56.5,29.7 -53.7,39.4 -60.7,29.1" class="face" />
+<polygon points="-78.2,-0 -75.5,9.7 -85,-0.3" class="face" />
+<polygon points="75.5,9.7 66.8,-10 66,-2.7" class="face" />
+<polygon points="-89.6,-10 -94.5,-10.3 -101,-20" class="face" />
+<polygon points="81.7,47.2 94.5,34.6 85,22.2" class="face" />
+<polygon points="66,-2.7 55.4,-20 56.5,-15.2" class="face" />
+<polygon points="-66,19.7 -67.7,18.8 -75.5,9.7" class="face" />
+<polygon points="74.7,33 85,22.2 75.5,9.7" class="face" />
+<polygon points="-89.6,-10 -85,-0.3 -94.5,-10.3" class="face" />
+<polygon points="-66,19.7 -60.7,29.1 -67.7,18.8" class="face" />
+<polygon points="81.7,47.2 85,22.2 74.7,33" class="face" />
+<polygon points="67.7,18.8 75.5,9.7 66,-2.7" class="face" />
+<polygon points="-53.7,39.4 -50.9,37.5 -60.7,29.1" class="face" />
+<polygon points="-53.7,39.4 -46.6,48.5 -50.9,37.5" class="face" />
+<polygon points="74.7,33 75.5,9.7 67.7,18.8" class="face" />
+<polygon points="60.7,4.6 66,-2.7 56.5,-15.2" class="face" />
+<polygon points="-75.5,9.7 -74.7,8.4 -85,-0.3" class="face" />
+<polygon points="67.7,18.8 66,-2.7 60.7,4.6" class="face" />
+<polygon points="-75.5,9.7 -67.7,18.8 -74.7,8.4" class="face" />
+<polygon points="64,56.9 81.7,47.2 74.7,33" class="face" />
+<polygon points="60.7,4.6 56.5,-15.2 53.7,-9.6" class="face" />
+<polygon points="-60.7,29.1 -55.3,26.5 -67.7,18.8" class="face" />
+<polygon points="-60.7,29.1 -50.9,37.5 -55.3,26.5" class="face" />
+<polygon points="59.7,41.7 74.7,33 67.7,18.8" class="face" />
+<polygon points="-46.6,48.5 -37,44.5 -50.9,37.5" class="face" />
+<polygon points="-46.6,48.5 -34.9,56.4 -37,44.5" class="face" />
+<polygon points="-85,-0.3 -81.7,-1.9 -94.5,-10.3" class="face" />
+<polygon points="64,56.9 74.7,33 59.7,41.7" class="face" />
+<polygon points="55.3,26.5 67.7,18.8 60.7,4.6" class="face" />
+<polygon points="-85,-0.3 -74.7,8.4 -81.7,-1.9" class="face" />
+<polygon points="59.7,41.7 67.7,18.8 55.3,26.5" class="face" />
+<polygon points="50.9,11.4 60.7,4.6 53.7,-9.6" class="face" />
+<polygon points="43.3,63.3 64,56.9 59.7,41.7" class="face" />
+<polygon points="55.3,26.5 60.7,4.6 50.9,11.4" class="face" />
+<polygon points="-67.7,18.8 -59.7,15.6 -74.7,8.4" class="face" />
+<polygon points="-34.9,56.4 -19.1,62.4 -19.7,49.3" class="face" />
+<polygon points="-67.7,18.8 -55.3,26.5 -59.7,15.6" class="face" />
+<polygon points="-34.9,56.4 -19.7,49.3 -37,44.5" class="face" />
+<polygon points="-50.9,37.5 -39.1,32.5 -55.3,26.5" class="face" />
+<polygon points="-50.9,37.5 -37,44.5 -39.1,32.5" class="face" />
+<polygon points="50.9,11.4 53.7,-9.6 46.6,-3.8" class="face" />
+<polygon points="41.2,47.9 59.7,41.7 55.3,26.5" class="face" />
+<polygon points="43.3,63.3 59.7,41.7 41.2,47.9" class="face" />
+<polygon points="39.1,32.5 55.3,26.5 50.9,11.4" class="face" />
+<polygon points="21.3,66.3 43.3,63.3 41.2,47.9" class="face" />
+<polygon points="-19.1,62.4 -0,65.9 -0,51.7" class="face" />
+<polygon points="41.2,47.9 55.3,26.5 39.1,32.5" class="face" />
+<polygon points="-19.1,62.4 -0,51.7 -19.7,49.3" class="face" />
+<polygon points="-0,65.9 21.3,66.3 20.8,51.3" class="face" />
+<polygon points="-74.7,8.4 -64,4.6 -81.7,-1.9" class="face" />
+<polygon points="21.3,66.3 41.2,47.9 20.8,51.3" class="face" />
+<polygon points="37,17.1 50.9,11.4 46.6,-3.8" class="face" />
+<polygon points="-37,44.5 -19.7,49.3 -20.2,36.3" class="face" />
+<polygon points="-0,65.9 20.8,51.3 -0,51.7" class="face" />
+<polygon points="-37,44.5 -20.2,36.3 -39.1,32.5" class="face" />
+<polygon points="-74.7,8.4 -59.7,15.6 -64,4.6" class="face" />
+<polygon points="20.8,51.3 41.2,47.9 39.1,32.5" class="face" />
+<polygon points="39.1,32.5 50.9,11.4 37,17.1" class="face" />
+<polygon points="-55.3,26.5 -39.1,32.5 -41.2,20.6" class="face" />
+<polygon points="-55.3,26.5 -41.2,20.6 -59.7,15.6" class="face" />
+<polygon points="20.8,51.3 39.1,32.5 20.2,36.3" class="face" />
+<polygon points="-19.7,49.3 -0,51.7 -0,37.5" class="face" />
+<polygon points="37,17.1 46.6,-3.8 34.9,1.7" class="face" />
+<polygon points="-0,51.7 20.8,51.3 20.2,36.3" class="face" />
+<polygon points="20.2,36.3 39.1,32.5 37,17.1" class="face" />
+<polygon points="-19.7,49.3 -0,37.5 -20.2,36.3" class="face" />
+<polygon points="-0,51.7 20.2,36.3 -0,37.5" class="face" />
+<polygon points="-39.1,32.5 -20.2,36.3 -20.8,23.2" class="face" />
+<polygon points="20.2,36.3 37,17.1 19.7,21.2" class="face" />
+<polygon points="19.7,21.2 37,17.1 34.9,1.7" class="face" />
+<polygon points="-39.1,32.5 -20.8,23.2 -41.2,20.6" class="face" />
+<polygon points="-0,37.5 20.2,36.3 19.7,21.2" class="face" />
+<polygon points="-59.7,15.6 -41.2,20.6 -43.3,8.6" class="face" />
+<polygon points="-59.7,15.6 -43.3,8.6 -64,4.6" class="face" />
+<polygon points="-20.2,36.3 -0,37.5 -0,23.4" class="face" />
+<polygon points="-0,37.5 19.7,21.2 -0,23.4" class="face" />
+<polygon points="19.7,21.2 34.9,1.7 19.1,6.2" class="face" />
+<polygon points="-20.2,36.3 -0,23.4 -20.8,23.2" class="face" />
+<polygon points="-0,23.4 19.7,21.2 19.1,6.2" class="face" />
+<polygon points="-41.2,20.6 -20.8,23.2 -21.3,10.1" class="face" />
+<polygon points="-41.2,20.6 -21.3,10.1 -43.3,8.6" class="face" />
+<polygon points="-20.8,23.2 -0,23.4 -0,9.2" class="face" />
+<polygon points="-0,23.4 19.1,6.2 -0,9.2" class="face" />
+<polygon points="-20.8,23.2 -0,9.2 -21.3,10.1" class="face" />
+</g>
+</defs>
+<text x="500.0" y="32" class="title" text-anchor="middle"><tspan>Cycles and Boundaries in the Möbius Strip</tspan></text>
+<use xlink:href="#d0" x="170" y="150" />
+<circle cx="91.8" cy="150.0" r="5" fill="var(--sky)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="220.9" cy="161.4" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="236.8" cy="140.0" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="119.1" cy="187.5" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="114.7" cy="176.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="133.0" cy="194.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="138.7" cy="127.6" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="114.4" cy="141.7" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="235.8" cy="123.8" r="5" fill="var(--green)" stroke="var(--paper)" stroke-width="1" />
+<use xlink:href="#d0" x="500" y="150" />
+<path d="M422 149.4 421.8 150" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="27,32" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M421.8 150 424.5 159.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="32,37" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M451.8 157.7 449.2 160.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="20,25" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M449.2 160.7 444.6 170" class="chain" stroke="var(--green)" data-chain="b" data-simplex="25,30" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M444.6 170 443.5 179.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="30,35" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M443.5 179.7 446.3 189.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="35,40" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M500 112.5 479.8 113.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="2,7" />
+<polygon points="483.4,113.5 491.2,110 491.5,116" fill="var(--sky)" />
+<path d="M520.2 113.7 500 112.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="2,117" />
+<path d="M479.8 113.7 460.9 117.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="7,12" />
+<path d="M460.9 117.5 444.7 123.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="12,17" />
+<path d="M444.7 123.5 432.3 131.2" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="17,22" />
+<path d="M432.3 131.2 424.5 140.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="22,27" />
+<path d="M424.5 140.3 422 149.4" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="27,32" />
+<path d="M424.5 159.7 432.3 168.8" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="37,42" />
+<path d="M432.3 168.8 444.7 176.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="42,47" />
+<path d="M444.7 176.5 460.9 182.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="47,52" />
+<path d="M460.9 182.5 479.8 186.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="52,57" />
+<path d="M479.8 186.3 500 187.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="57,62" />
+<path d="M500 187.5 520.2 186.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="62,67" />
+<path d="M520.2 186.3 539.1 182.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="67,72" />
+<path d="M539.1 182.5 555.3 176.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="72,77" />
+<path d="M555.3 176.5 567.7 168.8" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="77,82" />
+<path d="M567.7 168.8 575.5 159.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="82,87" />
+<path d="M575.5 159.7 578.2 150" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="87,92" />
+<path d="M578.2 150 575.5 140.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="92,97" />
+<path d="M575.5 140.3 567.7 131.2" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="97,102" />
+<path d="M567.7 131.2 555.3 123.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="102,107" />
+<path d="M555.3 123.5 539.1 117.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="107,112" />
+<path d="M539.1 117.5 520.2 113.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="112,117" />
+<path d="M500 128 488 132.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="0,5" />
+<polygon points="488.8,132 495.3,126.5 497.3,132.1" fill="var(--green)" />
+<path d="M512 124.9 500 128" class="chain" stroke="var(--green)" data-chain="b" data-simplex="0,119" />
+<path d="M500 97 471.5 95.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="4,9" />
+<path d="M528.5 102.6 500 97" class="chain" stroke="var(--green)" data-chain="b" data-simplex="4,115" />
+<path d="M488 132.3 476.5 137.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="5,10" />
+<path d="M471.5 95.2 445.3 97.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="9,14" />
+<path d="M476.5 137.8 465.8 144.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="10,15" />
+<path d="M445.3 97.2 423.6 102.5" class="chain" stroke="var(--green)" data-chain="b" data-simplex="14,19" />
+<path d="M465.8 144.4 456.5 152.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="15,20" />
+<path d="M423.6 102.5 408.1 110.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="19,24" />
+<path d="M456.5 152.1 451.8 157.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="20,25" />
+<path d="M408.1 110.4 399.7 119.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="24,29" />
+<path d="M399.7 119.9 399 130" class="chain" stroke="var(--green)" data-chain="b" data-simplex="29,34" />
+<path d="M399 130 405.5 139.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="34,39" />
+<path d="M405.5 139.7 418.3 148.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="39,44" />
+<path d="M446.3 189.4 453.4 198.5" class="chain" stroke="var(--green)" data-chain="b" data-simplex="40,45" />
+<path d="M418.3 148.1 436 154.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="44,49" />
+<path d="M453.4 198.5 465.1 206.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="45,50" />
+<path d="M436 154.6 456.7 158.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="49,54" />
+<path d="M465.1 206.4 480.9 212.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="50,55" />
+<path d="M456.7 158.6 478.7 160.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="54,59" />
+<path d="M480.9 212.4 500 215.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="55,60" />
+<path d="M478.7 160.1 500 159.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="59,64" />
+<path d="M500 215.9 521.3 216.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="60,65" />
+<path d="M500 159.2 519.1 156.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="64,69" />
+<path d="M521.3 216.3 543.3 213.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="65,70" />
+<path d="M519.1 156.2 534.9 151.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="69,74" />
+<path d="M543.3 213.3 564 206.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="70,75" />
+<path d="M534.9 151.7 546.6 146.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="74,79" />
+<path d="M564 206.9 581.7 197.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="75,80" />
+<path d="M546.6 146.2 553.7 140.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="79,84" />
+<path d="M581.7 197.2 594.5 184.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="80,85" />
+<path d="M553.7 140.4 556.5 134.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="84,89" />
+<path d="M594.5 184.6 601 170" class="chain" stroke="var(--green)" data-chain="b" data-simplex="85,90" />
+<path d="M556.5 134.8 555.4 130" class="chain" stroke="var(--green)" data-chain="b" data-simplex="89,94" />
+<path d="M601 170 600.3 154.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="90,95" />
+<path d="M555.4 130 550.8 126.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="94,99" />
+<path d="M600.3 154.3 591.9 138.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="95,100" />
+<path d="M550.8 126.2 543.5 123.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="99,104" />
+<path d="M591.9 138.7 576.4 124.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="100,105" />
+<path d="M543.5 123.8 534.2 122.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="104,109" />
+<path d="M576.4 124.2 554.7 111.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="105,110" />
+<path d="M534.2 122.7 523.5 123.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="109,114" />
+<path d="M554.7 111.9 528.5 102.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="110,115" />
+<path d="M523.5 123.1 512 124.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="114,119" />
+<path d="M574.7 183 585 172.2" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="81,86" />
+<polygon points="583.9,173.3 580.6,181.2 576.2,177" fill="var(--rose)" />
+<path d="M575.5 159.7 574.7 183" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="81,87" />
+<path d="M585 172.2 575.5 159.7" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="86,87" />
+<path d="M550.9 161.4 560.7 154.6" class="chain" stroke="var(--slate)" data-chain="open" data-simplex="78,83" />
+<path d="M560.7 154.6 566 147.3" class="chain" stroke="var(--slate)" data-chain="open" data-simplex="83,88" />
+<path d="M566 147.3 566.8 140" class="chain" stroke="var(--slate)" data-chain="open" data-simplex="88,93" />
+<circle cx="550.9" cy="161.4" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="566.8" cy="140.0" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M449.1 187.5 444.7 176.5" class="chain" stroke="var(--slate)" data-chain="branch" data-simplex="46,47" />
+<path d="M449.1 187.5 463 194.5" class="chain" stroke="var(--slate)" data-chain="branch" data-simplex="46,51" />
+<polygon points="461.4,193.6 452.9,192.8 455.5,187.4" fill="var(--slate)" />
+<circle cx="463.0" cy="194.5" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="449.1" cy="187.5" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="444.7" cy="176.5" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M468.7 127.6 455.3 133.9" class="chain" stroke="var(--slate)" data-chain="open_back" data-simplex="11,16" />
+<polygon points="456.7,133.3 462.6,127.2 465.2,132.6" fill="var(--slate)" />
+<path d="M455.3 133.9 444.4 141.7" class="chain" stroke="var(--slate)" data-chain="open_back" data-simplex="16,21" />
+<circle cx="468.7" cy="127.6" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="444.4" cy="141.7" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<use xlink:href="#d0" x="830" y="150" />
+<polygon points="830,128 818,132.3 813.9,123" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,128 830,120.2 813.9,123" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,120.2 813.9,123 809.8,113.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,120.2 830,112.5 809.8,113.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,112.5 809.8,113.7 805.6,104.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,112.5 830,104.7 805.6,104.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,104.7 805.6,104.5 801.5,95.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,104.7 830,97 801.5,95.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="818,132.3 806.5,137.8 798.7,127.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="818,132.3 813.9,123 798.7,127.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="813.9,123 798.7,127.6 790.9,117.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="813.9,123 809.8,113.7 790.9,117.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="809.8,113.7 790.9,117.5 783.1,107.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="809.8,113.7 805.6,104.5 783.1,107.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="805.6,104.5 783.1,107.3 775.3,97.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="805.6,104.5 801.5,95.2 775.3,97.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="806.5,137.8 795.8,144.4 785.3,133.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="806.5,137.8 798.7,127.6 785.3,133.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="798.7,127.6 785.3,133.9 774.7,123.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="798.7,127.6 790.9,117.5 774.7,123.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="790.9,117.5 774.7,123.5 764.2,113" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="790.9,117.5 783.1,107.3 764.2,113" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="783.1,107.3 764.2,113 753.6,102.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="783.1,107.3 775.3,97.2 753.6,102.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="795.8,144.4 786.5,152.1 774.4,141.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="795.8,144.4 785.3,133.9 774.4,141.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="785.3,133.9 774.4,141.7 762.3,131.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="785.3,133.9 774.7,123.5 762.3,131.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="774.7,123.5 762.3,131.2 750.2,120.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="774.7,123.5 764.2,113 750.2,120.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="764.2,113 750.2,120.8 738.1,110.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="764.2,113 753.6,102.5 738.1,110.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="786.5,152.1 779.2,160.7 766.8,150.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="786.5,152.1 774.4,141.7 766.8,150.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="774.4,141.7 766.8,150.5 754.5,140.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="774.4,141.7 762.3,131.2 754.5,140.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="762.3,131.2 754.5,140.3 742.1,130.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="762.3,131.2 750.2,120.8 742.1,130.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="750.2,120.8 742.1,130.1 729.7,119.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="750.2,120.8 738.1,110.4 729.7,119.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="766.8,150.5 754.5,140.3 751.8,150" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="754.5,140.3 751.8,150 740.4,140" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="754.5,140.3 742.1,130.1 740.4,140" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="742.1,130.1 740.4,140 729,130" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="742.1,130.1 729.7,119.9 729,130" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="740.4,140 729,130 735.5,139.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="754.5,159.7 762.3,168.8 755.3,158.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="754.5,159.7 745,149.7 755.3,158.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="745,149.7 755.3,158.4 748.3,148.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="745,149.7 735.5,139.7 748.3,148.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="776.3,189.4 783.4,198.5 779.1,187.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="776.3,189.4 769.3,179.1 779.1,187.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="769.3,179.1 779.1,187.5 774.7,176.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="769.3,179.1 762.3,168.8 774.7,176.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="762.3,168.8 774.7,176.5 770.3,165.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="762.3,168.8 755.3,158.4 770.3,165.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="755.3,158.4 770.3,165.6 766,154.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="755.3,158.4 748.3,148.1 766,154.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="783.4,198.5 795.1,206.4 793,194.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="783.4,198.5 779.1,187.5 793,194.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="779.1,187.5 793,194.5 790.9,182.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="779.1,187.5 774.7,176.5 790.9,182.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="774.7,176.5 790.9,182.5 788.8,170.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="774.7,176.5 770.3,165.6 788.8,170.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="770.3,165.6 788.8,170.6 786.7,158.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="770.3,165.6 766,154.6 786.7,158.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="795.1,206.4 810.9,212.4 810.3,199.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="795.1,206.4 793,194.5 810.3,199.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="793,194.5 810.3,199.3 809.8,186.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="793,194.5 790.9,182.5 809.8,186.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="790.9,182.5 809.8,186.3 809.2,173.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="790.9,182.5 788.8,170.6 809.2,173.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="788.8,170.6 809.2,173.2 808.7,160.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="788.8,170.6 786.7,158.6 808.7,160.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="810.9,212.4 830,215.9 830,201.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="810.9,212.4 810.3,199.3 830,201.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="810.3,199.3 830,201.7 830,187.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="810.3,199.3 809.8,186.3 830,187.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="809.8,186.3 830,187.5 830,173.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="809.8,186.3 809.2,173.2 830,173.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="809.2,173.2 830,173.4 830,159.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="809.2,173.2 808.7,160.1 830,159.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,215.9 851.3,216.3 850.8,201.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,215.9 830,201.7 850.8,201.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,201.7 850.8,201.3 850.2,186.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,201.7 830,187.5 850.2,186.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,187.5 850.2,186.3 849.7,171.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,187.5 830,173.4 849.7,171.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,173.4 849.7,171.2 849.1,156.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,173.4 830,159.2 849.1,156.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="851.3,216.3 873.3,213.3 871.2,197.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="851.3,216.3 850.8,201.3 871.2,197.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="850.8,201.3 871.2,197.9 869.1,182.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="850.8,201.3 850.2,186.3 869.1,182.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="850.2,186.3 869.1,182.5 867,167.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="850.2,186.3 849.7,171.2 867,167.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="849.7,171.2 867,167.1 864.9,151.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="849.7,171.2 849.1,156.2 864.9,151.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="873.3,213.3 894,206.9 889.7,191.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="873.3,213.3 871.2,197.9 889.7,191.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="871.2,197.9 889.7,191.7 885.3,176.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="871.2,197.9 869.1,182.5 885.3,176.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="869.1,182.5 885.3,176.5 880.9,161.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="869.1,182.5 867,167.1 880.9,161.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="867,167.1 880.9,161.4 876.6,146.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="867,167.1 864.9,151.7 876.6,146.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="894,206.9 911.7,197.2 904.7,183" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="894,206.9 889.7,191.7 904.7,183" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="889.7,191.7 904.7,183 897.7,168.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="889.7,191.7 885.3,176.5 897.7,168.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="885.3,176.5 897.7,168.8 890.7,154.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="885.3,176.5 880.9,161.4 890.7,154.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="880.9,161.4 890.7,154.6 883.7,140.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="880.9,161.4 876.6,146.2 883.7,140.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="911.7,197.2 924.5,184.6 915,172.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="911.7,197.2 904.7,183 915,172.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="904.7,183 915,172.2 905.5,159.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="904.7,183 897.7,168.8 905.5,159.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="897.7,168.8 905.5,159.7 896,147.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="897.7,168.8 890.7,154.6 896,147.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="890.7,154.6 896,147.3 886.5,134.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="890.7,154.6 883.7,140.4 886.5,134.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="924.5,184.6 931,170 919.6,160" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="924.5,184.6 915,172.2 919.6,160" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="915,172.2 919.6,160 908.2,150" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="915,172.2 905.5,159.7 908.2,150" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="905.5,159.7 908.2,150 896.8,140" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="905.5,159.7 896,147.3 896.8,140" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="896,147.3 896.8,140 885.4,130" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="896,147.3 886.5,134.8 885.4,130" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="931,170 930.3,154.3 917.9,147.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="931,170 919.6,160 917.9,147.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="919.6,160 917.9,147.3 905.5,140.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="919.6,160 908.2,150 905.5,140.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="908.2,150 905.5,140.3 893.2,133.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="908.2,150 896.8,140 893.2,133.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="896.8,140 893.2,133.3 880.8,126.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="930.3,154.3 921.9,138.7 909.8,135" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="930.3,154.3 917.9,147.3 909.8,135" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="917.9,147.3 909.8,135 897.7,131.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="917.9,147.3 905.5,140.3 897.7,131.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="905.5,140.3 897.7,131.2 885.6,127.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="905.5,140.3 893.2,133.3 885.6,127.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="893.2,133.3 880.8,126.2 873.5,123.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="921.9,138.7 906.4,124.2 895.8,123.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="921.9,138.7 909.8,135 895.8,123.8" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="909.8,135 895.8,123.8 885.3,123.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="909.8,135 897.7,131.2 885.3,123.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="897.7,131.2 885.3,123.5 874.7,123.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="897.7,131.2 885.6,127.5 874.7,123.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="885.6,127.5 873.5,123.8 864.2,122.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="906.4,124.2 884.7,111.9 876.9,114.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="906.4,124.2 895.8,123.8 876.9,114.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="895.8,123.8 876.9,114.7 869.1,117.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="895.8,123.8 885.3,123.5 869.1,117.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="885.3,123.5 869.1,117.5 861.3,120.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="885.3,123.5 874.7,123.1 861.3,120.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="874.7,123.1 861.3,120.3 853.5,123.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="874.7,123.1 864.2,122.7 853.5,123.1" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="884.7,111.9 858.5,102.6 854.4,108.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="884.7,111.9 876.9,114.7 854.4,108.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="876.9,114.7 854.4,108.2 850.2,113.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="876.9,114.7 869.1,117.5 850.2,113.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="869.1,117.5 850.2,113.7 846.1,119.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="869.1,117.5 861.3,120.3 846.1,119.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="861.3,120.3 846.1,119.3 842,124.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="861.3,120.3 853.5,123.1 842,124.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,104.7 830,97 858.5,102.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,104.7 858.5,102.6 854.4,108.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,112.5 830,104.7 854.4,108.2" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,112.5 854.4,108.2 850.2,113.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,120.2 830,112.5 850.2,113.7" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,120.2 850.2,113.7 846.1,119.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,128 830,120.2 846.1,119.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="830,128 846.1,119.3 842,124.9" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="904.7,183 915,172.2 905.5,159.7" fill="var(--rose)" fill-opacity="0.6" stroke="none" />
+<polygon points="779.2,160.7 774.6,170 763.2,160" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="779.2,160.7 766.8,150.5 763.2,160" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="766.8,150.5 763.2,160 751.8,150" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="774.6,170 773.5,179.7 764,169.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="774.6,170 763.2,160 764,169.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="763.2,160 764,169.7 754.5,159.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="763.2,160 751.8,150 754.5,159.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="751.8,150 754.5,159.7 745,149.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="751.8,150 740.4,140 745,149.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="740.4,140 745,149.7 735.5,139.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="773.5,179.7 776.3,189.4 769.3,179.1" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="773.5,179.7 764,169.7 769.3,179.1" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="764,169.7 769.3,179.1 762.3,168.8" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="764,169.7 754.5,159.7 762.3,168.8" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="896.8,140 885.4,130 880.8,126.2" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="893.2,133.3 885.6,127.5 873.5,123.8" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<polygon points="885.6,127.5 874.7,123.1 864.2,122.7" fill="var(--amber)" fill-opacity="0.25" stroke="none" />
+<path d="M384.9 150 291.1 150" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="285.1,150 297.1,145 297.1,155" fill="var(--ink)" />
+<text x="335.0" y="130" class="on-arrow" text-anchor="middle"><tspan>∂</tspan><tspan baseline-shift="sub" font-size="18">1</tspan></text>
+<path d="M714.9 150 621.1 150" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="615.1,150 627.1,145 627.1,155" fill="var(--ink)" />
+<text x="665.0" y="130" class="on-arrow" text-anchor="middle"><tspan>∂</tspan><tspan baseline-shift="sub" font-size="18">2</tspan></text>
+<text x="170" y="254" class="math" text-anchor="middle" style="fill:var(--ink)"><tspan>C</tspan><tspan baseline-shift="sub" font-size="18">0</tspan><tspan>(M)</tspan></text>
+<text x="500" y="254" class="math" text-anchor="middle" style="fill:var(--ink)"><tspan>C</tspan><tspan baseline-shift="sub" font-size="18">1</tspan><tspan>(M)</tspan></text>
+<text x="830" y="254" class="math" text-anchor="middle" style="fill:var(--ink)"><tspan>C</tspan><tspan baseline-shift="sub" font-size="18">2</tspan><tspan>(M)</tspan></text>
+<use xlink:href="#d0" x="170" y="410" />
+<circle cx="91.8" cy="410.0" r="5" fill="var(--sky)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="220.9" cy="421.4" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="236.8" cy="400.0" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="119.1" cy="447.5" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="114.7" cy="436.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="133.0" cy="454.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="138.7" cy="387.6" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="114.4" cy="401.7" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="235.8" cy="383.8" r="5" fill="var(--green)" stroke="var(--paper)" stroke-width="1" />
+<use xlink:href="#d0" x="500" y="410" />
+<polygon points="574.7,443 585,432.2 575.5,419.7" fill="var(--rose)" fill-opacity="0.2" stroke="none" />
+<path d="M422 409.4 421.8 410" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="27,32" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M421.8 410 424.5 419.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="32,37" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M451.8 417.7 449.2 420.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="20,25" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M449.2 420.7 444.6 430" class="chain" stroke="var(--green)" data-chain="b" data-simplex="25,30" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M444.6 430 443.5 439.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="30,35" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M443.5 439.7 446.3 449.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="35,40" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M500 372.5 479.8 373.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="2,7" />
+<polygon points="483.4,373.5 491.2,370 491.5,376" fill="var(--sky)" />
+<path d="M520.2 373.7 500 372.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="2,117" />
+<path d="M479.8 373.7 460.9 377.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="7,12" />
+<path d="M460.9 377.5 444.7 383.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="12,17" />
+<path d="M444.7 383.5 432.3 391.2" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="17,22" />
+<path d="M432.3 391.2 424.5 400.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="22,27" />
+<path d="M424.5 400.3 422 409.4" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="27,32" />
+<path d="M424.5 419.7 432.3 428.8" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="37,42" />
+<path d="M432.3 428.8 444.7 436.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="42,47" />
+<path d="M444.7 436.5 460.9 442.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="47,52" />
+<path d="M460.9 442.5 479.8 446.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="52,57" />
+<path d="M479.8 446.3 500 447.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="57,62" />
+<path d="M500 447.5 520.2 446.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="62,67" />
+<path d="M520.2 446.3 539.1 442.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="67,72" />
+<path d="M539.1 442.5 555.3 436.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="72,77" />
+<path d="M555.3 436.5 567.7 428.8" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="77,82" />
+<path d="M567.7 428.8 575.5 419.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="82,87" />
+<path d="M575.5 419.7 578.2 410" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="87,92" />
+<path d="M578.2 410 575.5 400.3" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="92,97" />
+<path d="M575.5 400.3 567.7 391.2" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="97,102" />
+<path d="M567.7 391.2 555.3 383.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="102,107" />
+<path d="M555.3 383.5 539.1 377.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="107,112" />
+<path d="M539.1 377.5 520.2 373.7" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="112,117" />
+<path d="M500 388 488 392.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="0,5" />
+<polygon points="488.8,392 495.3,386.5 497.3,392.1" fill="var(--green)" />
+<path d="M512 384.9 500 388" class="chain" stroke="var(--green)" data-chain="b" data-simplex="0,119" />
+<path d="M500 357 471.5 355.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="4,9" />
+<path d="M528.5 362.6 500 357" class="chain" stroke="var(--green)" data-chain="b" data-simplex="4,115" />
+<path d="M488 392.3 476.5 397.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="5,10" />
+<path d="M471.5 355.2 445.3 357.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="9,14" />
+<path d="M476.5 397.8 465.8 404.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="10,15" />
+<path d="M445.3 357.2 423.6 362.5" class="chain" stroke="var(--green)" data-chain="b" data-simplex="14,19" />
+<path d="M465.8 404.4 456.5 412.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="15,20" />
+<path d="M423.6 362.5 408.1 370.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="19,24" />
+<path d="M456.5 412.1 451.8 417.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="20,25" />
+<path d="M408.1 370.4 399.7 379.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="24,29" />
+<path d="M399.7 379.9 399 390" class="chain" stroke="var(--green)" data-chain="b" data-simplex="29,34" />
+<path d="M399 390 405.5 399.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="34,39" />
+<path d="M405.5 399.7 418.3 408.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="39,44" />
+<path d="M446.3 449.4 453.4 458.5" class="chain" stroke="var(--green)" data-chain="b" data-simplex="40,45" />
+<path d="M418.3 408.1 436 414.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="44,49" />
+<path d="M453.4 458.5 465.1 466.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="45,50" />
+<path d="M436 414.6 456.7 418.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="49,54" />
+<path d="M465.1 466.4 480.9 472.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="50,55" />
+<path d="M456.7 418.6 478.7 420.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="54,59" />
+<path d="M480.9 472.4 500 475.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="55,60" />
+<path d="M478.7 420.1 500 419.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="59,64" />
+<path d="M500 475.9 521.3 476.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="60,65" />
+<path d="M500 419.2 519.1 416.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="64,69" />
+<path d="M521.3 476.3 543.3 473.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="65,70" />
+<path d="M519.1 416.2 534.9 411.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="69,74" />
+<path d="M543.3 473.3 564 466.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="70,75" />
+<path d="M534.9 411.7 546.6 406.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="74,79" />
+<path d="M564 466.9 581.7 457.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="75,80" />
+<path d="M546.6 406.2 553.7 400.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="79,84" />
+<path d="M581.7 457.2 594.5 444.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="80,85" />
+<path d="M553.7 400.4 556.5 394.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="84,89" />
+<path d="M594.5 444.6 601 430" class="chain" stroke="var(--green)" data-chain="b" data-simplex="85,90" />
+<path d="M556.5 394.8 555.4 390" class="chain" stroke="var(--green)" data-chain="b" data-simplex="89,94" />
+<path d="M601 430 600.3 414.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="90,95" />
+<path d="M555.4 390 550.8 386.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="94,99" />
+<path d="M600.3 414.3 591.9 398.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="95,100" />
+<path d="M550.8 386.2 543.5 383.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="99,104" />
+<path d="M591.9 398.7 576.4 384.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="100,105" />
+<path d="M543.5 383.8 534.2 382.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="104,109" />
+<path d="M576.4 384.2 554.7 371.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="105,110" />
+<path d="M534.2 382.7 523.5 383.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="109,114" />
+<path d="M554.7 371.9 528.5 362.6" class="chain" stroke="var(--green)" data-chain="b" data-simplex="110,115" />
+<path d="M523.5 383.1 512 384.9" class="chain" stroke="var(--green)" data-chain="b" data-simplex="114,119" />
+<path d="M574.7 443 585 432.2" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="81,86" />
+<polygon points="583.9,433.3 580.6,441.2 576.2,437" fill="var(--rose)" />
+<path d="M575.5 419.7 574.7 443" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="81,87" />
+<path d="M585 432.2 575.5 419.7" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="86,87" />
+<use xlink:href="#d0" x="170" y="670" />
+<circle cx="220.9" cy="681.4" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="236.8" cy="660.0" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="119.1" cy="707.5" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="114.7" cy="696.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="133.0" cy="714.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="138.7" cy="647.6" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="114.4" cy="661.7" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<use xlink:href="#d0" x="500" y="670" />
+<polygon points="500,648 488,652.3 483.9,643" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,648 500,640.2 483.9,643" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,640.2 483.9,643 479.8,633.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,640.2 500,632.5 479.8,633.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,632.5 479.8,633.7 475.6,624.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,632.5 500,624.7 475.6,624.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,624.7 475.6,624.5 471.5,615.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,624.7 500,617 471.5,615.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="488,652.3 476.5,657.8 468.7,647.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="488,652.3 483.9,643 468.7,647.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="483.9,643 468.7,647.6 460.9,637.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="483.9,643 479.8,633.7 460.9,637.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="479.8,633.7 460.9,637.5 453.1,627.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="479.8,633.7 475.6,624.5 453.1,627.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="475.6,624.5 453.1,627.3 445.3,617.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="475.6,624.5 471.5,615.2 445.3,617.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="476.5,657.8 465.8,664.4 455.3,653.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="476.5,657.8 468.7,647.6 455.3,653.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="468.7,647.6 455.3,653.9 444.7,643.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="468.7,647.6 460.9,637.5 444.7,643.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="460.9,637.5 444.7,643.5 434.2,633" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="460.9,637.5 453.1,627.3 434.2,633" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="453.1,627.3 434.2,633 423.6,622.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="453.1,627.3 445.3,617.2 423.6,622.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="465.8,664.4 456.5,672.1 444.4,661.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="465.8,664.4 455.3,653.9 444.4,661.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="455.3,653.9 444.4,661.7 432.3,651.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="455.3,653.9 444.7,643.5 432.3,651.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="444.7,643.5 432.3,651.2 420.2,640.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="444.7,643.5 434.2,633 420.2,640.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="434.2,633 420.2,640.8 408.1,630.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="434.2,633 423.6,622.5 408.1,630.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="456.5,672.1 449.2,680.7 436.8,670.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="456.5,672.1 444.4,661.7 436.8,670.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="444.4,661.7 436.8,670.5 424.5,660.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="444.4,661.7 432.3,651.2 424.5,660.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="432.3,651.2 424.5,660.3 412.1,650.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="432.3,651.2 420.2,640.8 412.1,650.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="420.2,640.8 412.1,650.1 399.7,639.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="420.2,640.8 408.1,630.4 399.7,639.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="436.8,670.5 424.5,660.3 421.8,670" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="424.5,660.3 421.8,670 410.4,660" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="424.5,660.3 412.1,650.1 410.4,660" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="412.1,650.1 410.4,660 399,650" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="412.1,650.1 399.7,639.9 399,650" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="410.4,660 399,650 405.5,659.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="424.5,679.7 432.3,688.8 425.3,678.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="424.5,679.7 415,669.7 425.3,678.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="415,669.7 425.3,678.4 418.3,668.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="415,669.7 405.5,659.7 418.3,668.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="446.3,709.4 453.4,718.5 449.1,707.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="446.3,709.4 439.3,699.1 449.1,707.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="439.3,699.1 449.1,707.5 444.7,696.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="439.3,699.1 432.3,688.8 444.7,696.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="432.3,688.8 444.7,696.5 440.3,685.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="432.3,688.8 425.3,678.4 440.3,685.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="425.3,678.4 440.3,685.6 436,674.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="425.3,678.4 418.3,668.1 436,674.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="453.4,718.5 465.1,726.4 463,714.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="453.4,718.5 449.1,707.5 463,714.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="449.1,707.5 463,714.5 460.9,702.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="449.1,707.5 444.7,696.5 460.9,702.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="444.7,696.5 460.9,702.5 458.8,690.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="444.7,696.5 440.3,685.6 458.8,690.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="440.3,685.6 458.8,690.6 456.7,678.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="440.3,685.6 436,674.6 456.7,678.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="465.1,726.4 480.9,732.4 480.3,719.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="465.1,726.4 463,714.5 480.3,719.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="463,714.5 480.3,719.3 479.8,706.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="463,714.5 460.9,702.5 479.8,706.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="460.9,702.5 479.8,706.3 479.2,693.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="460.9,702.5 458.8,690.6 479.2,693.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="458.8,690.6 479.2,693.2 478.7,680.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="458.8,690.6 456.7,678.6 478.7,680.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="480.9,732.4 500,735.9 500,721.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="480.9,732.4 480.3,719.3 500,721.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="480.3,719.3 500,721.7 500,707.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="480.3,719.3 479.8,706.3 500,707.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="479.8,706.3 500,707.5 500,693.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="479.8,706.3 479.2,693.2 500,693.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="479.2,693.2 500,693.4 500,679.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="479.2,693.2 478.7,680.1 500,679.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,735.9 521.3,736.3 520.8,721.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,735.9 500,721.7 520.8,721.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,721.7 520.8,721.3 520.2,706.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,721.7 500,707.5 520.2,706.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,707.5 520.2,706.3 519.7,691.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,707.5 500,693.4 519.7,691.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,693.4 519.7,691.2 519.1,676.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,693.4 500,679.2 519.1,676.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="521.3,736.3 543.3,733.3 541.2,717.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="521.3,736.3 520.8,721.3 541.2,717.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="520.8,721.3 541.2,717.9 539.1,702.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="520.8,721.3 520.2,706.3 539.1,702.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="520.2,706.3 539.1,702.5 537,687.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="520.2,706.3 519.7,691.2 537,687.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="519.7,691.2 537,687.1 534.9,671.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="519.7,691.2 519.1,676.2 534.9,671.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="543.3,733.3 564,726.9 559.7,711.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="543.3,733.3 541.2,717.9 559.7,711.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="541.2,717.9 559.7,711.7 555.3,696.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="541.2,717.9 539.1,702.5 555.3,696.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="539.1,702.5 555.3,696.5 550.9,681.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="539.1,702.5 537,687.1 550.9,681.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="537,687.1 550.9,681.4 546.6,666.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="537,687.1 534.9,671.7 546.6,666.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="564,726.9 581.7,717.2 574.7,703" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="564,726.9 559.7,711.7 574.7,703" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="559.7,711.7 574.7,703 567.7,688.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="559.7,711.7 555.3,696.5 567.7,688.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="555.3,696.5 567.7,688.8 560.7,674.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="555.3,696.5 550.9,681.4 560.7,674.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="550.9,681.4 560.7,674.6 553.7,660.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="550.9,681.4 546.6,666.2 553.7,660.4" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="581.7,717.2 594.5,704.6 585,692.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="581.7,717.2 574.7,703 585,692.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="574.7,703 585,692.2 575.5,679.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="574.7,703 567.7,688.8 575.5,679.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="567.7,688.8 575.5,679.7 566,667.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="567.7,688.8 560.7,674.6 566,667.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="560.7,674.6 566,667.3 556.5,654.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="560.7,674.6 553.7,660.4 556.5,654.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="594.5,704.6 601,690 589.6,680" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="594.5,704.6 585,692.2 589.6,680" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="585,692.2 589.6,680 578.2,670" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="585,692.2 575.5,679.7 578.2,670" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="575.5,679.7 578.2,670 566.8,660" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="575.5,679.7 566,667.3 566.8,660" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="566,667.3 566.8,660 555.4,650" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="566,667.3 556.5,654.8 555.4,650" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="601,690 600.3,674.3 587.9,667.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="601,690 589.6,680 587.9,667.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="589.6,680 587.9,667.3 575.5,660.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="589.6,680 578.2,670 575.5,660.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="578.2,670 575.5,660.3 563.2,653.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="578.2,670 566.8,660 563.2,653.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="566.8,660 563.2,653.3 550.8,646.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="600.3,674.3 591.9,658.7 579.8,655" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="600.3,674.3 587.9,667.3 579.8,655" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="587.9,667.3 579.8,655 567.7,651.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="587.9,667.3 575.5,660.3 567.7,651.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="575.5,660.3 567.7,651.2 555.6,647.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="575.5,660.3 563.2,653.3 555.6,647.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="563.2,653.3 550.8,646.2 543.5,643.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="591.9,658.7 576.4,644.2 565.8,643.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="591.9,658.7 579.8,655 565.8,643.8" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="579.8,655 565.8,643.8 555.3,643.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="579.8,655 567.7,651.2 555.3,643.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="567.7,651.2 555.3,643.5 544.7,643.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="567.7,651.2 555.6,647.5 544.7,643.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="555.6,647.5 543.5,643.8 534.2,642.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="576.4,644.2 554.7,631.9 546.9,634.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="576.4,644.2 565.8,643.8 546.9,634.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="565.8,643.8 546.9,634.7 539.1,637.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="565.8,643.8 555.3,643.5 539.1,637.5" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="555.3,643.5 539.1,637.5 531.3,640.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="555.3,643.5 544.7,643.1 531.3,640.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="544.7,643.1 531.3,640.3 523.5,643.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="544.7,643.1 534.2,642.7 523.5,643.1" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="554.7,631.9 528.5,622.6 524.4,628.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="554.7,631.9 546.9,634.7 524.4,628.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="546.9,634.7 524.4,628.2 520.2,633.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="546.9,634.7 539.1,637.5 520.2,633.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="539.1,637.5 520.2,633.7 516.1,639.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="539.1,637.5 531.3,640.3 516.1,639.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="531.3,640.3 516.1,639.3 512,644.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="531.3,640.3 523.5,643.1 512,644.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,624.7 500,617 528.5,622.6" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,624.7 528.5,622.6 524.4,628.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,632.5 500,624.7 524.4,628.2" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,632.5 524.4,628.2 520.2,633.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,640.2 500,632.5 520.2,633.7" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,640.2 520.2,633.7 516.1,639.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,648 500,640.2 516.1,639.3" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="500,648 516.1,639.3 512,644.9" fill="var(--amber)" fill-opacity="0.2" stroke="none" />
+<polygon points="574.7,703 585,692.2 575.5,679.7" fill="var(--rose)" fill-opacity="0.2" stroke="none" />
+<path d="M421.8 670 422 669.4" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="27,32" stroke-dasharray="3 3" stroke-opacity="0.4" style="stroke-width:6.5" />
+<path d="M424.5 679.7 421.8 670" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="32,37" stroke-dasharray="3 3" stroke-opacity="0.4" style="stroke-width:6.5" />
+<path d="M451.8 677.7 449.2 680.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="20,25" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M449.2 680.7 444.6 690" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="25,30" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M444.6 690 443.5 699.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="30,35" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M443.5 699.7 446.3 709.4" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="35,40" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M479.8 633.7 500 632.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="2,7" style="stroke-width:6.5" />
+<polygon points="496.4,632.7 488.6,636.2 488.2,630.2" fill="var(--sky)" />
+<path d="M500 632.5 520.2 633.7" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="2,117" style="stroke-width:6.5" />
+<path d="M460.9 637.5 479.8 633.7" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="7,12" style="stroke-width:6.5" />
+<path d="M444.7 643.5 460.9 637.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="12,17" style="stroke-width:6.5" />
+<path d="M432.3 651.2 444.7 643.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="17,22" style="stroke-width:6.5" />
+<path d="M424.5 660.3 432.3 651.2" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="22,27" style="stroke-width:6.5" />
+<path d="M422 669.4 424.5 660.3" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="27,32" style="stroke-width:6.5" />
+<path d="M432.3 688.8 424.5 679.7" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="37,42" style="stroke-width:6.5" />
+<path d="M444.7 696.5 432.3 688.8" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="42,47" style="stroke-width:6.5" />
+<path d="M460.9 702.5 444.7 696.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="47,52" style="stroke-width:6.5" />
+<path d="M479.8 706.3 460.9 702.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="52,57" style="stroke-width:6.5" />
+<path d="M500 707.5 479.8 706.3" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="57,62" style="stroke-width:6.5" />
+<path d="M520.2 706.3 500 707.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="62,67" style="stroke-width:6.5" />
+<path d="M539.1 702.5 520.2 706.3" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="67,72" style="stroke-width:6.5" />
+<path d="M555.3 696.5 539.1 702.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="72,77" style="stroke-width:6.5" />
+<path d="M567.7 688.8 555.3 696.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="77,82" style="stroke-width:6.5" />
+<path d="M575.5 679.7 567.7 688.8" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="82,87" style="stroke-width:6.5" />
+<path d="M578.2 670 575.5 679.7" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="87,92" style="stroke-width:6.5" />
+<path d="M575.5 660.3 578.2 670" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="92,97" style="stroke-width:6.5" />
+<path d="M567.7 651.2 575.5 660.3" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="97,102" style="stroke-width:6.5" />
+<path d="M555.3 643.5 567.7 651.2" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="102,107" style="stroke-width:6.5" />
+<path d="M539.1 637.5 555.3 643.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="107,112" style="stroke-width:6.5" />
+<path d="M520.2 633.7 539.1 637.5" class="chain" stroke="var(--sky)" data-chain="patch" data-simplex="112,117" style="stroke-width:6.5" />
+<path d="M500 648 488 652.3" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="0,5" />
+<polygon points="488.8,652 495.3,646.5 497.3,652.1" fill="var(--green)" />
+<path d="M512 644.9 500 648" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="0,119" />
+<path d="M500 617 471.5 615.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="4,9" />
+<path d="M528.5 622.6 500 617" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="4,115" />
+<path d="M488 652.3 476.5 657.8" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="5,10" />
+<path d="M471.5 615.2 445.3 617.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="9,14" />
+<path d="M476.5 657.8 465.8 664.4" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="10,15" />
+<path d="M445.3 617.2 423.6 622.5" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="14,19" />
+<path d="M465.8 664.4 456.5 672.1" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="15,20" />
+<path d="M423.6 622.5 408.1 630.4" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="19,24" />
+<path d="M456.5 672.1 451.8 677.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="20,25" />
+<path d="M408.1 630.4 399.7 639.9" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="24,29" />
+<path d="M399.7 639.9 399 650" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="29,34" />
+<path d="M399 650 405.5 659.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="34,39" />
+<path d="M405.5 659.7 418.3 668.1" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="39,44" />
+<path d="M446.3 709.4 453.4 718.5" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="40,45" />
+<path d="M418.3 668.1 436 674.6" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="44,49" />
+<path d="M453.4 718.5 465.1 726.4" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="45,50" />
+<path d="M436 674.6 456.7 678.6" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="49,54" />
+<path d="M465.1 726.4 480.9 732.4" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="50,55" />
+<path d="M456.7 678.6 478.7 680.1" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="54,59" />
+<path d="M480.9 732.4 500 735.9" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="55,60" />
+<path d="M478.7 680.1 500 679.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="59,64" />
+<path d="M500 735.9 521.3 736.3" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="60,65" />
+<path d="M500 679.2 519.1 676.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="64,69" />
+<path d="M521.3 736.3 543.3 733.3" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="65,70" />
+<path d="M519.1 676.2 534.9 671.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="69,74" />
+<path d="M543.3 733.3 564 726.9" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="70,75" />
+<path d="M534.9 671.7 546.6 666.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="74,79" />
+<path d="M564 726.9 581.7 717.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="75,80" />
+<path d="M546.6 666.2 553.7 660.4" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="79,84" />
+<path d="M581.7 717.2 594.5 704.6" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="80,85" />
+<path d="M553.7 660.4 556.5 654.8" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="84,89" />
+<path d="M594.5 704.6 601 690" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="85,90" />
+<path d="M556.5 654.8 555.4 650" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="89,94" />
+<path d="M601 690 600.3 674.3" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="90,95" />
+<path d="M555.4 650 550.8 646.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="94,99" />
+<path d="M600.3 674.3 591.9 658.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="95,100" />
+<path d="M550.8 646.2 543.5 643.8" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="99,104" />
+<path d="M591.9 658.7 576.4 644.2" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="100,105" />
+<path d="M543.5 643.8 534.2 642.7" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="104,109" />
+<path d="M576.4 644.2 554.7 631.9" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="105,110" />
+<path d="M534.2 642.7 523.5 643.1" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="109,114" />
+<path d="M554.7 631.9 528.5 622.6" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="110,115" />
+<path d="M523.5 643.1 512 644.9" class="chain" stroke="var(--green)" data-chain="patch" data-simplex="114,119" />
+<path d="M574.7 703 585 692.2" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="81,86" />
+<polygon points="583.9,693.3 580.6,701.2 576.2,697" fill="var(--rose)" />
+<path d="M575.5 679.7 574.7 703" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="81,87" />
+<path d="M585 692.2 575.5 679.7" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="86,87" />
+<text x="170" y="514" class="math" text-anchor="middle" style="fill:var(--sky)"><tspan>Z</tspan><tspan baseline-shift="sub" font-size="18">0</tspan><tspan>(M)</tspan><tspan> = ker ∂</tspan><tspan baseline-shift="sub" font-size="18">0</tspan></text>
+<text x="170" y="774" class="math" text-anchor="middle" style="fill:var(--rose)"><tspan>B</tspan><tspan baseline-shift="sub" font-size="18">0</tspan><tspan>(M)</tspan><tspan> = im ∂</tspan><tspan baseline-shift="sub" font-size="18">1</tspan></text>
+<path d="M158 320A6 6 0 0 0 170 320V272" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="170,266 175,278 165,278" fill="var(--ink)" />
+<path d="M158 580A6 6 0 0 0 170 580V532" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="170,526 175,538 165,538" fill="var(--ink)" />
+<text x="500" y="514" class="math" text-anchor="middle" style="fill:var(--sky)"><tspan>Z</tspan><tspan baseline-shift="sub" font-size="18">1</tspan><tspan>(M)</tspan><tspan> = ker ∂</tspan><tspan baseline-shift="sub" font-size="18">1</tspan></text>
+<text x="500" y="774" class="math" text-anchor="middle" style="fill:var(--rose)"><tspan>B</tspan><tspan baseline-shift="sub" font-size="18">1</tspan><tspan>(M)</tspan><tspan> = im ∂</tspan><tspan baseline-shift="sub" font-size="18">2</tspan></text>
+<path d="M488 320A6 6 0 0 0 500 320V272" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="500,266 505,278 495,278" fill="var(--ink)" />
+<path d="M488 580A6 6 0 0 0 500 580V532" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="500,526 505,538 495,538" fill="var(--ink)" />
+<path d="M386.9 208 284.6 606.2" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="283.1,612 281.2,599.1 290.9,601.6" fill="var(--ink)" />
+<polygon points="286.6,598.4 284.7,585.6 294.4,588.1" fill="var(--ink)" />
+<text x="335.0" y="418.0" class="on-arrow" text-anchor="middle"><tspan>∂</tspan><tspan baseline-shift="sub" font-size="18">1</tspan></text>
+<path d="M716.9 208 614.6 606.2" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="613.1,612 611.2,599.1 620.9,601.6" fill="var(--ink)" />
+<polygon points="616.6,598.4 614.7,585.6 624.4,588.1" fill="var(--ink)" />
+<text x="665.0" y="418.0" class="on-arrow" text-anchor="middle"><tspan>∂</tspan><tspan baseline-shift="sub" font-size="18">2</tspan></text>
+</svg>

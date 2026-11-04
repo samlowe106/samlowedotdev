@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="640.0" viewBox="0 0 1000 640.0">
+<style>/*<![CDATA[*/:root{--ink:#626f80;--line:#c0c5cc;--progress:#956500;--finished:#24753c;--hot:#46758d;--api:#46758d;--download:#397a76;--write:#8652ad;--fail:#b42318;}@media(prefers-color-scheme:dark){:root{--ink:#99a5b5;--line:#4d525a;--progress:#e6b84f;--finished:#63d58a;--hot:#59b9e6;--api:#59b9e6;--download:#83b5ae;--write:#c18aeb;--fail:#f87171;}}text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:17px;fill:var(--ink);dominant-baseline:central}.mid{text-anchor:middle}.end{text-anchor:end}.muted{fill:var(--line)}.title{font-weight:bold}.api{fill:var(--api);stroke:var(--api)}.download{fill:var(--download);stroke:var(--download)}.write{fill:var(--write);stroke:var(--write)}.seg{fill-opacity:.35;stroke-width:1.5}.wait{fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:4 4}.axis,.tick{stroke:var(--line);stroke-width:1.5}.finish{stroke:var(--ink);stroke-width:2;stroke-dasharray:6 4}.box{fill:none;stroke:var(--ink);stroke-width:2}.fail{fill:none;stroke:var(--fail);stroke-width:2.5}.fail-text{fill:var(--fail)}.small{font-size:15px}.wire{fill:none;stroke:var(--line);stroke-width:2}.head{fill:var(--line)}/*]]>*/</style>
+<defs>
+</defs>
+<text x="130" y="26" font-size="17" class="title">single-threaded</text>
+<text x="118" y="60" font-size="17" class="end">main</text>
+<rect x="130.0" y="48.0" width="41.08910891089107" height="24" rx="3" class="seg api" />
+<rect x="171.08910891089107" y="48.0" width="41.0891089108911" height="24" rx="3" class="seg api" />
+<rect x="212.17821782178217" y="48.0" width="61.63366336633666" height="24" rx="3" class="seg download" />
+<rect x="273.81188118811883" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="286.13861386138615" y="48.0" width="82.17821782178214" height="24" rx="3" class="seg download" />
+<rect x="368.3168316831683" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="380.6435643564356" y="48.0" width="41.08910891089107" height="24" rx="3" class="seg download" />
+<rect x="421.7326732673267" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="434.059405940594" y="48.0" width="41.08910891089107" height="24" rx="3" class="seg api" />
+<rect x="475.14851485148506" y="48.0" width="41.08910891089113" height="24" rx="3" class="seg download" />
+<rect x="516.2376237623762" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="528.5643564356435" y="48.0" width="61.63366336633658" height="24" rx="3" class="seg download" />
+<rect x="590.1980198019801" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="602.5247524752474" y="48.0" width="82.17821782178225" height="24" rx="3" class="seg download" />
+<rect x="684.7029702970297" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="697.029702970297" y="48.0" width="41.08910891089113" height="24" rx="3" class="seg api" />
+<rect x="738.1188118811881" y="48.0" width="82.17821782178214" height="24" rx="3" class="seg download" />
+<rect x="820.2970297029702" y="48.0" width="12.32673267326743" height="24" rx="3" class="seg write" />
+<rect x="832.6237623762377" y="48.0" width="41.089108910891014" height="24" rx="3" class="seg download" />
+<rect x="873.7128712871287" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<rect x="886.039603960396" y="48.0" width="61.63366336633669" height="24" rx="3" class="seg download" />
+<rect x="947.6732673267327" y="48.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<path d="M960.0,16 L960.0,76.0" class="finish" />
+<text x="952.0" y="26" font-size="17" class="end">20.2 s</text>
+<text x="130" y="124" font-size="17" class="title">multithreaded, one thread per post and per image</text>
+<text x="118" y="158" font-size="17" class="end">main</text>
+<path d="M171.08910891089107,158 L306.68316831683165,158" class="wait" />
+<rect x="130.0" y="146.0" width="41.08910891089107" height="24" rx="3" class="seg api" />
+<text x="118" y="189" font-size="17" class="end">post 1</text>
+<path d="M212.17821782178217,189 L306.68316831683165,189" class="wait" />
+<rect x="171.08910891089107" y="177.0" width="41.0891089108911" height="24" rx="3" class="seg api" />
+<text x="118" y="220" font-size="17" class="end">image 1.1</text>
+<rect x="212.17821782178217" y="208.0" width="61.63366336633666" height="24" rx="3" class="seg download" />
+<rect x="273.81188118811883" y="208.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="251" font-size="17" class="end">image 1.2</text>
+<rect x="212.17821782178217" y="239.0" width="82.17821782178217" height="24" rx="3" class="seg download" />
+<rect x="294.35643564356434" y="239.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="282" font-size="17" class="end">image 1.3</text>
+<rect x="212.17821782178217" y="270.0" width="41.0891089108911" height="24" rx="3" class="seg download" />
+<rect x="253.26732673267327" y="270.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="313" font-size="17" class="end">post 2</text>
+<path d="M212.17821782178217,313 L306.68316831683165,313" class="wait" />
+<rect x="171.08910891089107" y="301.0" width="41.0891089108911" height="24" rx="3" class="seg api" />
+<text x="118" y="344" font-size="17" class="end">image 2.1</text>
+<rect x="212.17821782178217" y="332.0" width="41.0891089108911" height="24" rx="3" class="seg download" />
+<rect x="253.26732673267327" y="332.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="375" font-size="17" class="end">image 2.2</text>
+<rect x="212.17821782178217" y="363.0" width="61.63366336633666" height="24" rx="3" class="seg download" />
+<rect x="273.81188118811883" y="363.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="406" font-size="17" class="end">image 2.3</text>
+<rect x="212.17821782178217" y="394.0" width="82.17821782178217" height="24" rx="3" class="seg download" />
+<rect x="294.35643564356434" y="394.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="437" font-size="17" class="end">post 3</text>
+<path d="M212.17821782178217,437 L306.68316831683165,437" class="wait" />
+<rect x="171.08910891089107" y="425.0" width="41.0891089108911" height="24" rx="3" class="seg api" />
+<text x="118" y="468" font-size="17" class="end">image 3.1</text>
+<rect x="212.17821782178217" y="456.0" width="82.17821782178217" height="24" rx="3" class="seg download" />
+<rect x="294.35643564356434" y="456.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="499" font-size="17" class="end">image 3.2</text>
+<rect x="212.17821782178217" y="487.0" width="41.0891089108911" height="24" rx="3" class="seg download" />
+<rect x="253.26732673267327" y="487.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<text x="118" y="530" font-size="17" class="end">image 3.3</text>
+<rect x="212.17821782178217" y="518.0" width="61.63366336633666" height="24" rx="3" class="seg download" />
+<rect x="273.81188118811883" y="518.0" width="12.326732673267315" height="24" rx="3" class="seg write" />
+<path d="M306.68316831683165,146.0 L306.68316831683165,542.0" class="finish" />
+<text x="314.68316831683165" y="158" font-size="17" class="">4.3 s</text>
+<path d="M130,556.0 L960,556.0" class="axis" />
+<path d="M130.0,556.0 L130.0,562.0" class="tick" />
+<text x="130.0" y="576.0" font-size="17" class="mid muted">0 s</text>
+<path d="M335.4455445544554,556.0 L335.4455445544554,562.0" class="tick" />
+<text x="335.4455445544554" y="576.0" font-size="17" class="mid muted">5 s</text>
+<path d="M540.8910891089108,556.0 L540.8910891089108,562.0" class="tick" />
+<text x="540.8910891089108" y="576.0" font-size="17" class="mid muted">10 s</text>
+<path d="M746.3366336633662,556.0 L746.3366336633662,562.0" class="tick" />
+<text x="746.3366336633662" y="576.0" font-size="17" class="mid muted">15 s</text>
+<path d="M951.7821782178216,556.0 L951.7821782178216,562.0" class="tick" />
+<text x="951.7821782178216" y="576.0" font-size="17" class="mid muted">20 s</text>
+<rect x="164.8" y="609.0" width="30" height="18" rx="3" class="seg api" />
+<text x="202.8" y="618.0" font-size="17">API request</text>
+<rect x="345.0" y="609.0" width="30" height="18" rx="3" class="seg download" />
+<text x="383.0" y="618.0" font-size="17">download</text>
+<rect x="494.6" y="609.0" width="30" height="18" rx="3" class="seg write" />
+<text x="532.6" y="618.0" font-size="17">file write</text>
+<path d="M664.6,618.0 L694.6,618.0" class="wait" />
+<text x="702.6" y="618.0" font-size="17">idle/complete</text>
+</svg>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="285" viewBox="0 0 1000 285">
+<style>/*<![CDATA[*/:root{--paper:#ffffff;--ink:#626f80;--slate:#626f80;--sky:#46758d;--rose:#a05268;--amber:#956500;--green:#24753c;--sky-fill:#d4dfe5;--rose-fill:#e9d7dc;--amber-fill:#e7dcc4;--slate-fill:#dbdee2;}@media(prefers-color-scheme:dark){:root{--paper:#1b1b1e;--ink:#99a5b5;--slate:#99a5b5;--sky:#59b9e6;--rose:#df7c90;--amber:#e6b84f;--green:#63d58a;--sky-fill:#293f4c;--rose-fill:#483138;--amber-fill:#4a3f29;--slate-fill:#383b41;}}text{fill:var(--ink);font-family:system-ui,sans-serif;font-size:20px}.face{fill:var(--paper);stroke:var(--ink);stroke-opacity:.25;stroke-width:.65;stroke-linejoin:round}.chain{fill:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}.title{font-size:25px;font-weight:600}.legend{font-size:18px}.formula{font-family:serif;font-size:27px}.math{font-family:serif;font-size:27px}.on-arrow{font-family:serif;font-size:24px;paint-order:stroke;stroke:var(--paper);stroke-width:7px;stroke-linejoin:round}/*]]>*/</style>
+<defs>
+<g id="d0">
+<polygon points="45.7,-35.5 0,-39.8 0,-60.5" class="face" />
+<polygon points="0,-39.8 -48.2,-55.9 0,-60.5" class="face" />
+<polygon points="0,-20.8 -45.7,-35.5 0,-39.8" class="face" />
+<polygon points="0,-39.8 -45.7,-35.5 -48.2,-55.9" class="face" />
+<polygon points="39.2,-17.1 0,-39.8 45.7,-35.5" class="face" />
+<polygon points="45.7,-35.5 0,-60.5 48.2,-55.9" class="face" />
+<polygon points="39.2,-17.1 0,-20.8 0,-39.8" class="face" />
+<polygon points="0,-20.8 -39.2,-17.1 -45.7,-35.5" class="face" />
+<polygon points="48.2,-55.9 0,-60.5 0,-74.9" class="face" />
+<polygon points="0,-60.5 -48.2,-55.9 -45.7,-70.5" class="face" />
+<polygon points="0,-60.5 -45.7,-70.5 0,-74.9" class="face" />
+<polygon points="84.5,-23 45.7,-35.5 48.2,-55.9" class="face" />
+<polygon points="0,-10.8 -39.2,-17.1 0,-20.8" class="face" />
+<polygon points="-39.2,-17.1 -84.5,-23 -45.7,-35.5" class="face" />
+<polygon points="-45.7,-35.5 -89.1,-42.8 -48.2,-55.9" class="face" />
+<polygon points="31.2,-7.8 0,-20.8 39.2,-17.1" class="face" />
+<polygon points="48.2,-55.9 0,-74.9 45.7,-70.5" class="face" />
+<polygon points="72.5,-6.4 39.2,-17.1 45.7,-35.5" class="face" />
+<polygon points="31.2,-7.8 0,-10.8 0,-20.8" class="face" />
+<polygon points="72.5,-6.4 45.7,-35.5 84.5,-23" class="face" />
+<polygon points="-45.7,-35.5 -84.5,-23 -89.1,-42.8" class="face" />
+<polygon points="89.1,-42.8 48.2,-55.9 45.7,-70.5" class="face" />
+<polygon points="0,-10.8 -31.2,-7.8 -39.2,-17.1" class="face" />
+<polygon points="84.5,-23 48.2,-55.9 89.1,-42.8" class="face" />
+<polygon points="-39.2,-17.1 -72.5,-6.4 -84.5,-23" class="face" />
+<polygon points="-31.2,-7.8 -72.5,-6.4 -39.2,-17.1" class="face" />
+<polygon points="45.7,-70.5 0,-74.9 0,-77.6" class="face" />
+<polygon points="-48.2,-55.9 -84.5,-58.1 -45.7,-70.5" class="face" />
+<polygon points="0,-74.9 -45.7,-70.5 -39.2,-73.8" class="face" />
+<polygon points="57.6,0.7 31.2,-7.8 39.2,-17.1" class="face" />
+<polygon points="-48.2,-55.9 -89.1,-42.8 -84.5,-58.1" class="face" />
+<polygon points="57.6,0.7 39.2,-17.1 72.5,-6.4" class="face" />
+<polygon points="0,-74.9 -39.2,-73.8 0,-77.6" class="face" />
+<polygon points="0,-13.4 -31.2,-7.8 0,-10.8" class="face" />
+<polygon points="24.7,-11.1 0,-10.8 31.2,-7.8" class="face" />
+<polygon points="89.1,-42.8 45.7,-70.5 84.5,-58.1" class="face" />
+<polygon points="45.7,-70.5 0,-77.6 39.2,-73.8" class="face" />
+<polygon points="-31.2,-7.8 -57.6,0.7 -72.5,-6.4" class="face" />
+<polygon points="84.5,-58.1 45.7,-70.5 39.2,-73.8" class="face" />
+<polygon points="24.7,-11.1 0,-13.4 0,-10.8" class="face" />
+<polygon points="94.7,9.5 72.5,-6.4 84.5,-23" class="face" />
+<polygon points="-72.5,-6.4 -110.4,-4.4 -84.5,-23" class="face" />
+<polygon points="110.4,-4.4 84.5,-23 89.1,-42.8" class="face" />
+<polygon points="0,-13.4 -24.7,-11.1 -31.2,-7.8" class="face" />
+<polygon points="-24.7,-11.1 -57.6,0.7 -31.2,-7.8" class="face" />
+<polygon points="-84.5,-23 -116.4,-23.1 -89.1,-42.8" class="face" />
+<polygon points="-45.7,-70.5 -72.5,-63.2 -39.2,-73.8" class="face" />
+<polygon points="-45.7,-70.5 -84.5,-58.1 -72.5,-63.2" class="face" />
+<polygon points="39.2,-73.8 0,-77.6 0,-67.5" class="face" />
+<polygon points="45.6,-4.4 31.2,-7.8 57.6,0.7" class="face" />
+<polygon points="-57.6,0.7 -94.7,9.5 -72.5,-6.4" class="face" />
+<polygon points="45.6,-4.4 24.7,-11.1 31.2,-7.8" class="face" />
+<polygon points="0,-77.6 -39.2,-73.8 -31.2,-64.5" class="face" />
+<polygon points="75.3,13.4 57.6,0.7 72.5,-6.4" class="face" />
+<polygon points="116.4,-23.1 89.1,-42.8 84.5,-58.1" class="face" />
+<polygon points="94.7,9.5 84.5,-23 110.4,-4.4" class="face" />
+<polygon points="0,-77.6 -31.2,-64.5 0,-67.5" class="face" />
+<polygon points="84.5,-58.1 39.2,-73.8 72.5,-63.2" class="face" />
+<polygon points="0,-27.8 -24.7,-11.1 0,-13.4" class="face" />
+<polygon points="-72.5,-6.4 -94.7,9.5 -110.4,-4.4" class="face" />
+<polygon points="-24.7,-11.1 -45.6,-4.4 -57.6,0.7" class="face" />
+<polygon points="-84.5,-23 -110.4,-4.4 -116.4,-23.1" class="face" />
+<polygon points="22.2,-25.7 0,-13.4 24.7,-11.1" class="face" />
+<polygon points="39.2,-73.8 0,-67.5 31.2,-64.5" class="face" />
+<polygon points="-89.1,-42.8 -110.4,-39.5 -84.5,-58.1" class="face" />
+<polygon points="75.3,13.4 72.5,-6.4 94.7,9.5" class="face" />
+<polygon points="110.4,-4.4 89.1,-42.8 116.4,-23.1" class="face" />
+<polygon points="72.5,-63.2 39.2,-73.8 31.2,-64.5" class="face" />
+<polygon points="22.2,-25.7 0,-27.8 0,-13.4" class="face" />
+<polygon points="0,-27.8 -22.2,-25.7 -24.7,-11.1" class="face" />
+<polygon points="-57.6,0.7 -75.3,13.4 -94.7,9.5" class="face" />
+<polygon points="-45.6,-4.4 -75.3,13.4 -57.6,0.7" class="face" />
+<polygon points="-22.2,-25.7 -45.6,-4.4 -24.7,-11.1" class="face" />
+<polygon points="31.2,-64.5 0,-67.5 0,-48.5" class="face" />
+<polygon points="-39.2,-73.8 -57.6,-56 -31.2,-64.5" class="face" />
+<polygon points="-89.1,-42.8 -116.4,-23.1 -110.4,-39.5" class="face" />
+<polygon points="-39.2,-73.8 -72.5,-63.2 -57.6,-56" class="face" />
+<polygon points="0,-67.5 -31.2,-64.5 -24.7,-46.1" class="face" />
+<polygon points="41,-19.7 24.7,-11.1 45.6,-4.4" class="face" />
+<polygon points="59.6,5.7 45.6,-4.4 57.6,0.7" class="face" />
+<polygon points="0,-67.5 -24.7,-46.1 0,-48.5" class="face" />
+<polygon points="0,-48.5 -22.2,-25.7 0,-27.8" class="face" />
+<polygon points="41,-19.7 22.2,-25.7 24.7,-11.1" class="face" />
+<polygon points="110.4,-39.5 84.5,-58.1 72.5,-63.2" class="face" />
+<polygon points="24.7,-46.1 0,-27.8 22.2,-25.7" class="face" />
+<polygon points="24.7,-46.1 0,-48.5 0,-27.8" class="face" />
+<polygon points="59.6,5.7 57.6,0.7 75.3,13.4" class="face" />
+<polygon points="31.2,-64.5 0,-48.5 24.7,-46.1" class="face" />
+<polygon points="116.4,-23.1 84.5,-58.1 110.4,-39.5" class="face" />
+<polygon points="0,-48.5 -24.7,-46.1 -22.2,-25.7" class="face" />
+<polygon points="72.5,-63.2 31.2,-64.5 57.6,-56" class="face" />
+<polygon points="-22.2,-25.7 -41,-19.7 -45.6,-4.4" class="face" />
+<polygon points="-84.5,-58.1 -94.7,-47.2 -72.5,-63.2" class="face" />
+<polygon points="57.6,-56 31.2,-64.5 24.7,-46.1" class="face" />
+<polygon points="-24.7,-46.1 -41,-19.7 -22.2,-25.7" class="face" />
+<polygon points="-45.6,-4.4 -59.6,5.7 -75.3,13.4" class="face" />
+<polygon points="-31.2,-64.5 -45.6,-39.4 -24.7,-46.1" class="face" />
+<polygon points="45.6,-39.4 24.7,-46.1 22.2,-25.7" class="face" />
+<polygon points="-41,-19.7 -59.6,5.7 -45.6,-4.4" class="face" />
+<polygon points="-31.2,-64.5 -57.6,-56 -45.6,-39.4" class="face" />
+<polygon points="102.5,28.4 94.7,9.5 110.4,-4.4" class="face" />
+<polygon points="-84.5,-58.1 -110.4,-39.5 -94.7,-47.2" class="face" />
+<polygon points="45.6,-39.4 22.2,-25.7 41,-19.7" class="face" />
+<polygon points="-94.7,9.5 -119.5,17.5 -110.4,-4.4" class="face" />
+<polygon points="-24.7,-46.1 -45.6,-39.4 -41,-19.7" class="face" />
+<polygon points="-75.3,13.4 -102.5,28.4 -94.7,9.5" class="face" />
+<polygon points="81.5,28.4 75.3,13.4 94.7,9.5" class="face" />
+<polygon points="57.6,-56 24.7,-46.1 45.6,-39.4" class="face" />
+<polygon points="53.6,-10.7 41,-19.7 45.6,-4.4" class="face" />
+<polygon points="94.7,-47.2 72.5,-63.2 57.6,-56" class="face" />
+<polygon points="119.5,17.5 110.4,-4.4 116.4,-23.1" class="face" />
+<polygon points="53.6,-10.7 45.6,-4.4 59.6,5.7" class="face" />
+<polygon points="110.4,-39.5 72.5,-63.2 94.7,-47.2" class="face" />
+<polygon points="-72.5,-63.2 -75.3,-43.3 -57.6,-56" class="face" />
+<polygon points="-110.4,-4.4 -126,-0 -116.4,-23.1" class="face" />
+<polygon points="-59.6,5.7 -81.5,28.4 -75.3,13.4" class="face" />
+<polygon points="-41,-19.7 -53.6,-10.7 -59.6,5.7" class="face" />
+<polygon points="-45.6,-39.4 -53.6,-10.7 -41,-19.7" class="face" />
+<polygon points="64.5,17.5 59.6,5.7 75.3,13.4" class="face" />
+<polygon points="81.5,28.4 94.7,9.5 102.5,28.4" class="face" />
+<polygon points="-72.5,-63.2 -94.7,-47.2 -75.3,-43.3" class="face" />
+<polygon points="59.6,-29.4 45.6,-39.4 41,-19.7" class="face" />
+<polygon points="-57.6,-56 -59.6,-29.4 -45.6,-39.4" class="face" />
+<polygon points="75.3,-43.3 57.6,-56 45.6,-39.4" class="face" />
+<polygon points="-94.7,9.5 -102.5,28.4 -119.5,17.5" class="face" />
+<polygon points="102.5,28.4 110.4,-4.4 119.5,17.5" class="face" />
+<polygon points="-75.3,13.4 -81.5,28.4 -102.5,28.4" class="face" />
+<polygon points="126,0 116.4,-23.1 110.4,-39.5" class="face" />
+<polygon points="64.5,17.5 75.3,13.4 81.5,28.4" class="face" />
+<polygon points="59.6,-29.4 41,-19.7 53.6,-10.7" class="face" />
+<polygon points="94.7,-47.2 57.6,-56 75.3,-43.3" class="face" />
+<polygon points="-116.4,-23.1 -119.5,-17.5 -110.4,-39.5" class="face" />
+<polygon points="-45.6,-39.4 -59.6,-29.4 -53.6,-10.7" class="face" />
+<polygon points="-53.6,-10.7 -64.5,17.5 -59.6,5.7" class="face" />
+<polygon points="-110.4,-4.4 -119.5,17.5 -126,-0" class="face" />
+<polygon points="-57.6,-56 -75.3,-43.3 -59.6,-29.4" class="face" />
+<polygon points="-59.6,5.7 -64.5,17.5 -81.5,28.4" class="face" />
+<polygon points="75.3,-43.3 45.6,-39.4 59.6,-29.4" class="face" />
+<polygon points="119.5,17.5 116.4,-23.1 126,0" class="face" />
+<polygon points="58,-0 53.6,-10.7 59.6,5.7" class="face" />
+<polygon points="58,-0 59.6,5.7 64.5,17.5" class="face" />
+<polygon points="119.5,-17.5 110.4,-39.5 94.7,-47.2" class="face" />
+<polygon points="-110.4,-39.5 -102.5,-28.4 -94.7,-47.2" class="face" />
+<polygon points="-116.4,-23.1 -126,-0 -119.5,-17.5" class="face" />
+<polygon points="-59.6,-29.4 -58,-0 -53.6,-10.7" class="face" />
+<polygon points="-53.6,-10.7 -58,-0 -64.5,17.5" class="face" />
+<polygon points="64.5,-17.5 59.6,-29.4 53.6,-10.7" class="face" />
+<polygon points="126,0 110.4,-39.5 119.5,-17.5" class="face" />
+<polygon points="75.3,43.3 81.5,28.4 102.5,28.4" class="face" />
+<polygon points="-94.7,-47.2 -81.5,-28.4 -75.3,-43.3" class="face" />
+<polygon points="102.5,-28.4 94.7,-47.2 75.3,-43.3" class="face" />
+<polygon points="-75.3,-43.3 -64.5,-17.5 -59.6,-29.4" class="face" />
+<polygon points="-64.5,17.5 -75.3,43.3 -81.5,28.4" class="face" />
+<polygon points="59.6,29.4 64.5,17.5 81.5,28.4" class="face" />
+<polygon points="-81.5,28.4 -94.7,47.2 -102.5,28.4" class="face" />
+<polygon points="64.5,-17.5 53.6,-10.7 58,-0" class="face" />
+<polygon points="81.5,-28.4 75.3,-43.3 59.6,-29.4" class="face" />
+<polygon points="94.7,47.2 102.5,28.4 119.5,17.5" class="face" />
+<polygon points="-110.4,-39.5 -119.5,-17.5 -102.5,-28.4" class="face" />
+<polygon points="-59.6,-29.4 -64.5,-17.5 -58,-0" class="face" />
+<polygon points="-58,-0 -59.6,29.4 -64.5,17.5" class="face" />
+<polygon points="-102.5,28.4 -110.4,39.5 -119.5,17.5" class="face" />
+<polygon points="119.5,-17.5 94.7,-47.2 102.5,-28.4" class="face" />
+<polygon points="59.6,29.4 81.5,28.4 75.3,43.3" class="face" />
+<polygon points="53.6,10.7 58,-0 64.5,17.5" class="face" />
+<polygon points="-94.7,-47.2 -102.5,-28.4 -81.5,-28.4" class="face" />
+<polygon points="81.5,-28.4 59.6,-29.4 64.5,-17.5" class="face" />
+<polygon points="-75.3,-43.3 -81.5,-28.4 -64.5,-17.5" class="face" />
+<polygon points="-64.5,17.5 -59.6,29.4 -75.3,43.3" class="face" />
+<polygon points="-81.5,28.4 -75.3,43.3 -94.7,47.2" class="face" />
+<polygon points="75.3,43.3 102.5,28.4 94.7,47.2" class="face" />
+<polygon points="102.5,-28.4 75.3,-43.3 81.5,-28.4" class="face" />
+<polygon points="110.4,39.5 119.5,17.5 126,0" class="face" />
+<polygon points="53.6,10.7 64.5,17.5 59.6,29.4" class="face" />
+<polygon points="-64.5,-17.5 -53.6,10.7 -58,-0" class="face" />
+<polygon points="-58,-0 -53.6,10.7 -59.6,29.4" class="face" />
+<polygon points="-119.5,17.5 -116.4,23.1 -126,-0" class="face" />
+<polygon points="-102.5,28.4 -94.7,47.2 -110.4,39.5" class="face" />
+<polygon points="94.7,47.2 119.5,17.5 110.4,39.5" class="face" />
+<polygon points="59.6,-5.7 64.5,-17.5 58,-0" class="face" />
+<polygon points="59.6,-5.7 58,-0 53.6,10.7" class="face" />
+<polygon points="116.4,23.1 126,0 119.5,-17.5" class="face" />
+<polygon points="45.6,39.4 59.6,29.4 75.3,43.3" class="face" />
+<polygon points="-81.5,-28.4 -59.6,-5.7 -64.5,-17.5" class="face" />
+<polygon points="-59.6,29.4 -57.6,56 -75.3,43.3" class="face" />
+<polygon points="-126,-0 -110.4,4.4 -119.5,-17.5" class="face" />
+<polygon points="-64.5,-17.5 -59.6,-5.7 -53.6,10.7" class="face" />
+<polygon points="-53.6,10.7 -45.6,39.4 -59.6,29.4" class="face" />
+<polygon points="-119.5,17.5 -110.4,39.5 -116.4,23.1" class="face" />
+<polygon points="57.6,56 75.3,43.3 94.7,47.2" class="face" />
+<polygon points="41,19.7 53.6,10.7 59.6,29.4" class="face" />
+<polygon points="75.3,-13.4 81.5,-28.4 64.5,-17.5" class="face" />
+<polygon points="110.4,39.5 126,0 116.4,23.1" class="face" />
+<polygon points="-102.5,-28.4 -75.3,-13.4 -81.5,-28.4" class="face" />
+<polygon points="110.4,4.4 119.5,-17.5 102.5,-28.4" class="face" />
+<polygon points="-119.5,-17.5 -94.7,-9.5 -102.5,-28.4" class="face" />
+<polygon points="45.6,39.4 75.3,43.3 57.6,56" class="face" />
+<polygon points="-59.6,29.4 -45.6,39.4 -57.6,56" class="face" />
+<polygon points="41,19.7 59.6,29.4 45.6,39.4" class="face" />
+<polygon points="-75.3,43.3 -72.5,63.2 -94.7,47.2" class="face" />
+<polygon points="94.7,-9.5 102.5,-28.4 81.5,-28.4" class="face" />
+<polygon points="75.3,-13.4 64.5,-17.5 59.6,-5.7" class="face" />
+<polygon points="-53.6,10.7 -41,19.7 -45.6,39.4" class="face" />
+<polygon points="-59.6,-5.7 -41,19.7 -53.6,10.7" class="face" />
+<polygon points="-81.5,-28.4 -75.3,-13.4 -59.6,-5.7" class="face" />
+<polygon points="-126,-0 -116.4,23.1 -110.4,4.4" class="face" />
+<polygon points="-75.3,43.3 -57.6,56 -72.5,63.2" class="face" />
+<polygon points="72.5,63.2 94.7,47.2 110.4,39.5" class="face" />
+<polygon points="45.6,4.4 59.6,-5.7 53.6,10.7" class="face" />
+<polygon points="116.4,23.1 119.5,-17.5 110.4,4.4" class="face" />
+<polygon points="57.6,56 94.7,47.2 72.5,63.2" class="face" />
+<polygon points="45.6,4.4 53.6,10.7 41,19.7" class="face" />
+<polygon points="24.7,46.1 45.6,39.4 57.6,56" class="face" />
+<polygon points="-102.5,-28.4 -94.7,-9.5 -75.3,-13.4" class="face" />
+<polygon points="94.7,-9.5 81.5,-28.4 75.3,-13.4" class="face" />
+<polygon points="-41,19.7 -24.7,46.1 -45.6,39.4" class="face" />
+<polygon points="-119.5,-17.5 -110.4,4.4 -94.7,-9.5" class="face" />
+<polygon points="22.2,25.7 41,19.7 45.6,39.4" class="face" />
+<polygon points="-94.7,47.2 -84.5,58.1 -110.4,39.5" class="face" />
+<polygon points="110.4,4.4 102.5,-28.4 94.7,-9.5" class="face" />
+<polygon points="-45.6,39.4 -31.2,64.5 -57.6,56" class="face" />
+<polygon points="-59.6,-5.7 -45.6,4.4 -41,19.7" class="face" />
+<polygon points="22.2,25.7 45.6,39.4 24.7,46.1" class="face" />
+<polygon points="-45.6,39.4 -24.7,46.1 -31.2,64.5" class="face" />
+<polygon points="-75.3,-13.4 -45.6,4.4 -59.6,-5.7" class="face" />
+<polygon points="-41,19.7 -22.2,25.7 -24.7,46.1" class="face" />
+<polygon points="24.7,46.1 57.6,56 31.2,64.5" class="face" />
+<polygon points="-94.7,47.2 -72.5,63.2 -84.5,58.1" class="face" />
+<polygon points="-45.6,4.4 -22.2,25.7 -41,19.7" class="face" />
+<polygon points="31.2,64.5 57.6,56 72.5,63.2" class="face" />
+<polygon points="-22.2,25.7 -0,48.5 -24.7,46.1" class="face" />
+<polygon points="84.5,58.1 110.4,39.5 116.4,23.1" class="face" />
+<polygon points="-0,48.5 24.7,46.1 31.2,64.5" class="face" />
+<polygon points="57.6,-0.7 75.3,-13.4 59.6,-5.7" class="face" />
+<polygon points="-0,27.8 24.7,46.1 -0,48.5" class="face" />
+<polygon points="-0,27.8 22.2,25.7 24.7,46.1" class="face" />
+<polygon points="72.5,63.2 110.4,39.5 84.5,58.1" class="face" />
+<polygon points="24.7,11.1 41,19.7 22.2,25.7" class="face" />
+<polygon points="-22.2,25.7 -0,27.8 -0,48.5" class="face" />
+<polygon points="-24.7,46.1 -0,48.5 -0,67.5" class="face" />
+<polygon points="57.6,-0.7 59.6,-5.7 45.6,4.4" class="face" />
+<polygon points="24.7,11.1 45.6,4.4 41,19.7" class="face" />
+<polygon points="-24.7,46.1 -0,67.5 -31.2,64.5" class="face" />
+<polygon points="-57.6,56 -39.2,73.8 -72.5,63.2" class="face" />
+<polygon points="-110.4,39.5 -89.1,42.8 -116.4,23.1" class="face" />
+<polygon points="-57.6,56 -31.2,64.5 -39.2,73.8" class="face" />
+<polygon points="-0,48.5 31.2,64.5 -0,67.5" class="face" />
+<polygon points="-45.6,4.4 -24.7,11.1 -22.2,25.7" class="face" />
+<polygon points="-75.3,-13.4 -57.6,-0.7 -45.6,4.4" class="face" />
+<polygon points="-94.7,-9.5 -57.6,-0.7 -75.3,-13.4" class="face" />
+<polygon points="-24.7,11.1 -0,27.8 -22.2,25.7" class="face" />
+<polygon points="-0,13.4 22.2,25.7 -0,27.8" class="face" />
+<polygon points="31.2,64.5 72.5,63.2 39.2,73.8" class="face" />
+<polygon points="89.1,42.8 116.4,23.1 110.4,4.4" class="face" />
+<polygon points="72.5,6.4 94.7,-9.5 75.3,-13.4" class="face" />
+<polygon points="-110.4,39.5 -84.5,58.1 -89.1,42.8" class="face" />
+<polygon points="-0,67.5 31.2,64.5 39.2,73.8" class="face" />
+<polygon points="-0,13.4 24.7,11.1 22.2,25.7" class="face" />
+<polygon points="-116.4,23.1 -84.5,23 -110.4,4.4" class="face" />
+<polygon points="-57.6,-0.7 -24.7,11.1 -45.6,4.4" class="face" />
+<polygon points="-110.4,4.4 -72.5,6.4 -94.7,-9.5" class="face" />
+<polygon points="-24.7,11.1 -0,13.4 -0,27.8" class="face" />
+<polygon points="39.2,73.8 72.5,63.2 84.5,58.1" class="face" />
+<polygon points="-31.2,64.5 -0,67.5 -0,77.6" class="face" />
+<polygon points="84.5,23 110.4,4.4 94.7,-9.5" class="face" />
+<polygon points="84.5,58.1 116.4,23.1 89.1,42.8" class="face" />
+<polygon points="72.5,6.4 75.3,-13.4 57.6,-0.7" class="face" />
+<polygon points="-31.2,64.5 -0,77.6 -39.2,73.8" class="face" />
+<polygon points="31.2,7.8 45.6,4.4 24.7,11.1" class="face" />
+<polygon points="-94.7,-9.5 -72.5,6.4 -57.6,-0.7" class="face" />
+<polygon points="31.2,7.8 57.6,-0.7 45.6,4.4" class="face" />
+<polygon points="-0,67.5 39.2,73.8 -0,77.6" class="face" />
+<polygon points="-72.5,63.2 -45.7,70.5 -84.5,58.1" class="face" />
+<polygon points="-72.5,63.2 -39.2,73.8 -45.7,70.5" class="face" />
+<polygon points="-116.4,23.1 -89.1,42.8 -84.5,23" class="face" />
+<polygon points="-57.6,-0.7 -31.2,7.8 -24.7,11.1" class="face" />
+<polygon points="-31.2,7.8 -0,13.4 -24.7,11.1" class="face" />
+<polygon points="89.1,42.8 110.4,4.4 84.5,23" class="face" />
+<polygon points="-110.4,4.4 -84.5,23 -72.5,6.4" class="face" />
+<polygon points="84.5,23 94.7,-9.5 72.5,6.4" class="face" />
+<polygon points="-0,10.8 24.7,11.1 -0,13.4" class="face" />
+<polygon points="39.2,73.8 84.5,58.1 45.7,70.5" class="face" />
+<polygon points="-72.5,6.4 -31.2,7.8 -57.6,-0.7" class="face" />
+<polygon points="-0,77.6 39.2,73.8 45.7,70.5" class="face" />
+<polygon points="45.7,70.5 84.5,58.1 89.1,42.8" class="face" />
+<polygon points="-0,10.8 31.2,7.8 24.7,11.1" class="face" />
+<polygon points="-31.2,7.8 -0,10.8 -0,13.4" class="face" />
+<polygon points="-39.2,73.8 -0,77.6 -0,74.9" class="face" />
+<polygon points="39.2,17.1 72.5,6.4 57.6,-0.7" class="face" />
+<polygon points="-84.5,58.1 -48.2,55.9 -89.1,42.8" class="face" />
+<polygon points="39.2,17.1 57.6,-0.7 31.2,7.8" class="face" />
+<polygon points="-39.2,73.8 -0,74.9 -45.7,70.5" class="face" />
+<polygon points="-84.5,58.1 -45.7,70.5 -48.2,55.9" class="face" />
+<polygon points="-0,77.6 45.7,70.5 -0,74.9" class="face" />
+<polygon points="-72.5,6.4 -39.2,17.1 -31.2,7.8" class="face" />
+<polygon points="-84.5,23 -39.2,17.1 -72.5,6.4" class="face" />
+<polygon points="48.2,55.9 89.1,42.8 84.5,23" class="face" />
+<polygon points="-39.2,17.1 -0,10.8 -31.2,7.8" class="face" />
+<polygon points="45.7,70.5 89.1,42.8 48.2,55.9" class="face" />
+<polygon points="-89.1,42.8 -45.7,35.5 -84.5,23" class="face" />
+<polygon points="45.7,35.5 84.5,23 72.5,6.4" class="face" />
+<polygon points="-0,20.8 31.2,7.8 -0,10.8" class="face" />
+<polygon points="45.7,35.5 72.5,6.4 39.2,17.1" class="face" />
+<polygon points="-0,74.9 45.7,70.5 48.2,55.9" class="face" />
+<polygon points="-0,20.8 39.2,17.1 31.2,7.8" class="face" />
+<polygon points="-89.1,42.8 -48.2,55.9 -45.7,35.5" class="face" />
+<polygon points="-84.5,23 -45.7,35.5 -39.2,17.1" class="face" />
+<polygon points="-39.2,17.1 -0,20.8 -0,10.8" class="face" />
+<polygon points="48.2,55.9 84.5,23 45.7,35.5" class="face" />
+<polygon points="-45.7,70.5 -0,74.9 -0,60.5" class="face" />
+<polygon points="-45.7,70.5 -0,60.5 -48.2,55.9" class="face" />
+<polygon points="-0,74.9 48.2,55.9 -0,60.5" class="face" />
+<polygon points="-45.7,35.5 -0,20.8 -39.2,17.1" class="face" />
+<polygon points="-0,39.8 39.2,17.1 -0,20.8" class="face" />
+<polygon points="-0,60.5 48.2,55.9 45.7,35.5" class="face" />
+<polygon points="-0,39.8 45.7,35.5 39.2,17.1" class="face" />
+<polygon points="-48.2,55.9 -0,39.8 -45.7,35.5" class="face" />
+<polygon points="-45.7,35.5 -0,39.8 -0,20.8" class="face" />
+<polygon points="-48.2,55.9 -0,60.5 -0,39.8" class="face" />
+<polygon points="-0,60.5 45.7,35.5 -0,39.8" class="face" />
+</g>
+</defs>
+<text x="500.0" y="32" class="title" text-anchor="middle"><tspan>The Chain Complex of the Torus</tspan></text>
+<use xlink:href="#d0" x="170" y="145" />
+<circle cx="145.3" cy="156.1" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="264.7" cy="192.2" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="242.5" cy="138.6" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="209.2" cy="127.9" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="85.5" cy="122.0" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="75.3" cy="154.5" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="192.2" cy="170.7" r="5" fill="var(--green)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="130.8" cy="162.1" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="97.5" cy="208.2" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="130.8" cy="218.8" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="227.6" cy="144.3" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="229.6" cy="139.3" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="130.8" cy="162.1" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="170.0" cy="165.8" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="170.0" cy="155.8" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="209.2" cy="162.1" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="170.0" cy="222.6" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="170.0" cy="67.4" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="75.3" cy="97.8" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="147.8" cy="119.3" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="129.0" cy="125.3" r="5" fill="var(--paper)" stroke="var(--slate)" stroke-width="1" />
+<circle cx="124.4" cy="140.6" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="116.4" cy="134.3" r="5" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="130.8" cy="71.2" r="5" fill="var(--sky)" stroke="var(--paper)" stroke-width="1" />
+<use xlink:href="#d0" x="500" y="145" />
+<path d="M626 145 616.4 121.9" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="0,10" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M616.4 121.9 589.1 102.2" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="10,20" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M589.1 102.2 548.2 89.1" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="20,30" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M548.2 89.1 500 84.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="30,40" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M500 84.5 451.8 89.1" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="40,50" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M451.8 89.1 410.9 102.2" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="50,60" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M410.9 102.2 383.6 121.9" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="60,70" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M383.6 121.9 374 145" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="70,80" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M557.6 144.3 545.6 149.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="143,144" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M545.6 149.4 541 164.7" class="chain" stroke="var(--green)" data-chain="b" data-simplex="144,145" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M541 164.7 545.6 184.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="145,146" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M545.6 184.4 557.6 201" class="chain" stroke="var(--green)" data-chain="b" data-simplex="146,147" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M557.6 201 572.5 208.2" class="chain" stroke="var(--green)" data-chain="b" data-simplex="147,148" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M610.4 140.6 594.7 154.5" class="chain" stroke="var(--rose)" data-chain="one_back" data-simplex="18,19" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M594.7 154.5 584.5 122" class="chain" stroke="var(--rose)" data-chain="one_back" data-simplex="18,29" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M584.5 122 610.4 140.6" class="chain" stroke="var(--rose)" data-chain="one_back" data-simplex="19,29" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M468.8 152.8 475.3 156.1" class="chain" stroke="var(--slate)" data-chain="open" data-simplex="113,114" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<circle cx="475.3" cy="156.1" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<path d="M572.5 208.2 594.7 192.2" class="chain" stroke="var(--slate)" data-chain="open_lower" data-simplex="148,158" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<circle cx="594.7" cy="192.2" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<path d="M572.5 138.6 539.2 127.9" class="chain" stroke="var(--slate)" data-chain="disconnected_back" data-simplex="28,38" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M415.5 122 389.6 140.6" class="chain" stroke="var(--slate)" data-chain="disconnected_back" data-simplex="69,79" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<path d="M389.6 140.6 405.3 154.5" class="chain" stroke="var(--slate)" data-chain="disconnected_back" data-simplex="78,79" stroke-dasharray="3 3" stroke-opacity="0.4" />
+<circle cx="539.2" cy="127.9" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="572.5" cy="138.6" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="415.5" cy="122.0" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<circle cx="405.3" cy="154.5" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" fill-opacity="0.4" stroke-opacity="0.4" />
+<path d="M616.4 168.1 626 145" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="0,150" />
+<polygon points="623.9,150 623.6,158.5 618.1,156.2" fill="var(--sky)" />
+<path d="M374 145 383.6 168.1" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="80,90" />
+<path d="M383.6 168.1 410.9 187.8" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="90,100" />
+<path d="M410.9 187.8 451.8 200.9" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="100,110" />
+<path d="M451.8 200.9 500 205.5" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="110,120" />
+<path d="M500 205.5 548.2 200.9" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="120,130" />
+<path d="M548.2 200.9 589.1 187.8" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="130,140" />
+<path d="M589.1 187.8 616.4 168.1" class="chain" stroke="var(--sky)" data-chain="a" data-simplex="140,150" />
+<path d="M589.1 187.8 584.5 168" class="chain" stroke="var(--green)" data-chain="b" data-simplex="140,141" />
+<polygon points="585.3,171.5 590.1,178.7 584.2,180" fill="var(--green)" />
+<path d="M584.5 203.1 589.1 187.8" class="chain" stroke="var(--green)" data-chain="b" data-simplex="140,149" />
+<path d="M584.5 168 572.5 151.4" class="chain" stroke="var(--green)" data-chain="b" data-simplex="141,142" />
+<path d="M572.5 151.4 557.6 144.3" class="chain" stroke="var(--green)" data-chain="b" data-simplex="142,143" />
+<path d="M572.5 208.2 584.5 203.1" class="chain" stroke="var(--green)" data-chain="b" data-simplex="148,149" />
+<path d="M524.7 98.9 500 96.5" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="34,44" />
+<polygon points="505.3,97 513.5,94.8 513,100.8" fill="var(--rose)" />
+<path d="M500 117.2 524.7 98.9" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="34,45" />
+<path d="M500 96.5 500 117.2" class="chain" stroke="var(--rose)" data-chain="one" data-simplex="44,45" />
+<path d="M397.5 116.6 380.5 127.5" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="81,82" />
+<polygon points="383.5,125.6 388.6,118.7 391.9,123.8" fill="var(--amber)" />
+<path d="M380.5 127.5 389.6 149.4" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="81,91" />
+<path d="M418.5 116.6 397.5 116.6" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="82,83" />
+<path d="M424.7 131.6 418.5 116.6" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="83,93" />
+<path d="M389.6 149.4 415.5 168" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="91,101" />
+<path d="M442.4 144.3 424.7 131.6" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="93,103" />
+<path d="M415.5 168 427.5 151.4" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="101,102" />
+<path d="M427.5 151.4 442.4 144.3" class="chain" stroke="var(--amber)" data-chain="patch" data-simplex="102,103" />
+<path d="M575.3 101.7 594.7 97.8" class="chain" stroke="var(--amber)" data-chain="patch_back" data-simplex="12,13" />
+<polygon points="591.3,98.5 584.1,103 582.9,97.1" fill="var(--amber)" />
+<path d="M594.7 97.8 572.5 81.8" class="chain" stroke="var(--amber)" data-chain="patch_back" data-simplex="12,22" />
+<path d="M557.6 89 575.3 101.7" class="chain" stroke="var(--amber)" data-chain="patch_back" data-simplex="13,23" />
+<path d="M572.5 81.8 539.2 71.2" class="chain" stroke="var(--amber)" data-chain="patch_back" data-simplex="22,32" />
+<path d="M531.2 80.5 557.6 89" class="chain" stroke="var(--amber)" data-chain="patch_back" data-simplex="23,33" />
+<path d="M539.2 71.2 531.2 80.5" class="chain" stroke="var(--amber)" data-chain="patch_back" data-simplex="32,33" />
+<path d="M460.8 162.1 468.8 152.8" class="chain" stroke="var(--slate)" data-chain="open" data-simplex="112,113" />
+<polygon points="468.4,153.2 465.5,161.3 460.9,157.3" fill="var(--slate)" />
+<circle cx="460.8" cy="162.1" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M427.5 208.2 460.8 218.8" class="chain" stroke="var(--slate)" data-chain="disconnected" data-simplex="108,118" />
+<polygon points="452.1,216 443.6,216.5 445.4,210.7" fill="var(--slate)" />
+<path d="M557.6 144.3 575.3 131.6" class="chain" stroke="var(--slate)" data-chain="disconnected" data-simplex="143,153" />
+<path d="M575.3 131.6 559.6 139.3" class="chain" stroke="var(--slate)" data-chain="disconnected" data-simplex="153,154" />
+<circle cx="557.6" cy="144.3" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="559.6" cy="139.3" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="460.8" cy="218.8" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="427.5" cy="208.2" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M500 165.8 460.8 162.1" class="chain" stroke="var(--slate)" data-chain="branch" data-simplex="112,122" />
+<polygon points="471.5,163.1 479.7,160.9 479.2,166.9" fill="var(--slate)" />
+<path d="M500 165.8 500 155.8" class="chain" stroke="var(--slate)" data-chain="branch" data-simplex="122,123" />
+<path d="M500 165.8 539.2 162.1" class="chain" stroke="var(--slate)" data-chain="branch" data-simplex="122,132" />
+<circle cx="500.0" cy="165.8" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="460.8" cy="162.1" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="500.0" cy="155.8" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="539.2" cy="162.1" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M500 222.6 539.2 218.8" class="chain" stroke="var(--slate)" data-chain="open_lower" data-simplex="128,138" />
+<polygon points="528.5,219.8 520.8,223.6 520.3,217.6" fill="var(--slate)" />
+<path d="M539.2 218.8 572.5 208.2" class="chain" stroke="var(--slate)" data-chain="open_lower" data-simplex="138,148" />
+<circle cx="500.0" cy="222.6" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M500 67.4 460.8 71.2" class="chain" stroke="var(--slate)" data-chain="open_back" data-simplex="42,52" />
+<polygon points="471.5,70.2 479.2,66.4 479.7,72.4" fill="var(--slate)" />
+<path d="M460.8 71.2 427.5 81.8" class="chain" stroke="var(--slate)" data-chain="open_back" data-simplex="52,62" />
+<path d="M427.5 81.8 405.3 97.8" class="chain" stroke="var(--slate)" data-chain="open_back" data-simplex="62,72" />
+<circle cx="500.0" cy="67.4" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="405.3" cy="97.8" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<path d="M459 125.3 477.8 119.3" class="chain" stroke="var(--slate)" data-chain="branch_back" data-simplex="55,65" />
+<polygon points="474.6,120.3 467.9,125.6 466,119.9" fill="var(--slate)" />
+<path d="M459 125.3 454.4 140.6" class="chain" stroke="var(--slate)" data-chain="branch_back" data-simplex="65,66" />
+<path d="M459 125.3 446.4 134.3" class="chain" stroke="var(--slate)" data-chain="branch_back" data-simplex="65,75" />
+<circle cx="459.0" cy="125.3" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="477.8" cy="119.3" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="446.4" cy="134.3" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<circle cx="454.4" cy="140.6" r="4" fill="var(--slate)" stroke="var(--paper)" stroke-width="1" />
+<use xlink:href="#d0" x="830" y="145" />
+<polygon points="854.7,98.9 830,96.5 830,117.2" fill="var(--rose)" fill-opacity="0.6" stroke="none" />
+<polygon points="710.5,127.5 719.6,149.4 735.3,135.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="710.5,127.5 727.5,116.6 735.3,135.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="727.5,116.6 735.3,135.5 754.7,131.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="727.5,116.6 748.5,116.6 754.7,131.6" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="719.6,149.4 745.5,168 757.5,151.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="719.6,149.4 735.3,135.5 757.5,151.4" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="735.3,135.5 757.5,151.4 772.4,144.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="735.3,135.5 754.7,131.6 772.4,144.3" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="924.7,97.8 902.5,81.8 887.6,89" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="924.7,97.8 905.3,101.7 887.6,89" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="902.5,81.8 869.2,71.2 861.2,80.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="902.5,81.8 887.6,89 861.2,80.5" fill="var(--amber)" fill-opacity="0.6" stroke="none" />
+<polygon points="924.7,154.5 940.4,140.6 914.5,122" fill="var(--rose)" fill-opacity="0.25" stroke="none" />
+<path d="M366 145 310 145" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="304,145 316,140 316,150" fill="var(--ink)" />
+<text x="335.0" y="125" class="on-arrow" text-anchor="middle"><tspan>∂</tspan><tspan baseline-shift="sub" font-size="18">1</tspan></text>
+<path d="M696 145 640 145" stroke="var(--ink)" stroke-width="1.8" fill="none" />
+<polygon points="634,145 646,140 646,150" fill="var(--ink)" />
+<text x="665.0" y="125" class="on-arrow" text-anchor="middle"><tspan>∂</tspan><tspan baseline-shift="sub" font-size="18">2</tspan></text>
+<text x="170" y="268" class="math" text-anchor="middle" style="fill:var(--ink)"><tspan>C</tspan><tspan baseline-shift="sub" font-size="18">0</tspan><tspan>(T</tspan><tspan baseline-shift="super" font-size="18">2</tspan><tspan>)</tspan></text>
+<text x="500" y="268" class="math" text-anchor="middle" style="fill:var(--ink)"><tspan>C</tspan><tspan baseline-shift="sub" font-size="18">1</tspan><tspan>(T</tspan><tspan baseline-shift="super" font-size="18">2</tspan><tspan>)</tspan></text>
+<text x="830" y="268" class="math" text-anchor="middle" style="fill:var(--ink)"><tspan>C</tspan><tspan baseline-shift="sub" font-size="18">2</tspan><tspan>(T</tspan><tspan baseline-shift="super" font-size="18">2</tspan><tspan>)</tspan></text>
+</svg>
