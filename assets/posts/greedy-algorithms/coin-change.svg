@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="490" viewBox="0 0 1000 490">
+<style>/*<![CDATA[*/:root{--ink:#626f80;--line:#c0c5cc;--muted:#8993a0;--coin:#956500;--hot:#46758d;--good:#24753c;--bad:#b42318;}@media(prefers-color-scheme:dark){:root{--ink:#99a5b5;--line:#4d525a;--muted:#7a828f;--coin:#e6b84f;--hot:#59b9e6;--good:#63d58a;--bad:#f87171;}}text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:22px;fill:var(--ink);text-anchor:middle;dominant-baseline:central}.small{font-size:17px}.title{font-weight:bold}.muted{fill:var(--muted)}.divider{stroke:var(--line);stroke-width:1;stroke-dasharray:2 6}.chip{fill:var(--coin);fill-opacity:.25;stroke:var(--coin);stroke-width:2}.node{fill:none;stroke:var(--ink);stroke-width:2}.edge{stroke:var(--line);stroke-width:2}.ring{fill:none;stroke:var(--hot);stroke-width:4}.path-node{fill:var(--good);fill-opacity:.25;stroke:var(--good);stroke-width:3}.path-edge{stroke:var(--good);stroke-width:4}.good{fill:var(--good);font-weight:bold}.bad{fill:var(--bad);font-weight:bold}.track{animation-duration:15.55s;animation-iteration-count:infinite;animation-timing-function:step-end}@media(prefers-reduced-motion:reduce){*{animation:none!important}}@keyframes a0{0.00%{opacity:1}2.25%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:1}}@keyframes a1{0.00%{opacity:0}2.25%{opacity:1}4.50%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a2{0.00%{opacity:0}4.50%{opacity:1}6.75%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a3{0.00%{opacity:0}6.75%{opacity:1}9.00%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a4{0.00%{opacity:0}9.00%{opacity:1}11.25%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a5{0.00%{opacity:0}11.25%{opacity:1}13.50%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a6{0.00%{opacity:0}13.50%{opacity:1}15.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a7{0.00%{opacity:0}15.76%{opacity:1}18.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a8{0.00%{opacity:0}18.01%{opacity:1}20.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a9{0.00%{opacity:0}20.26%{opacity:1}22.51%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a10{0.00%{opacity:0}22.51%{opacity:1}24.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a11{0.00%{opacity:0}24.76%{opacity:1}27.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a12{0.00%{opacity:0}27.01%{opacity:1}29.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a13{0.00%{opacity:0}29.26%{opacity:1}31.51%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a14{0.00%{opacity:0}31.51%{opacity:1}33.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a15{0.00%{opacity:0}33.76%{opacity:1}36.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a16{0.00%{opacity:0}36.01%{opacity:1}38.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a17{0.00%{opacity:0}38.26%{opacity:1}40.51%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a18{0.00%{opacity:0}40.51%{opacity:1}42.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a19{0.00%{opacity:0}42.77%{opacity:1}45.02%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a20{0.00%{opacity:0}45.02%{opacity:1}47.27%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a21{0.00%{opacity:0}47.27%{opacity:1}49.52%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a22{0.00%{opacity:0}49.52%{opacity:1}51.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a23{0.00%{opacity:0}51.77%{opacity:1}54.02%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a24{0.00%{opacity:0}54.02%{opacity:1}56.27%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a25{0.00%{opacity:0}56.27%{opacity:1}58.52%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a26{0.00%{opacity:0}58.52%{opacity:1}60.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a27{0.00%{opacity:0}60.77%{opacity:1}63.02%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a28{0.00%{opacity:0}63.02%{opacity:1}65.27%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a29{0.00%{opacity:0}65.27%{opacity:1}67.52%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a30{0.00%{opacity:0}67.52%{opacity:1}69.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a31{0.00%{opacity:0}69.77%{opacity:1}72.03%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a32{0.00%{opacity:0}72.03%{opacity:1}74.28%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a33{0.00%{opacity:0}74.28%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a34{0.00%{opacity:0}2.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a35{0.00%{opacity:0}2.25%{opacity:1}4.50%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a36{0.00%{opacity:0}4.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a37{0.00%{opacity:0}4.50%{opacity:1}6.75%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a38{0.00%{opacity:0}6.75%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a39{0.00%{opacity:0}6.75%{opacity:1}9.00%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a40{0.00%{opacity:0}9.00%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a41{0.00%{opacity:0}9.00%{opacity:1}11.25%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a42{0.00%{opacity:0}11.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a43{0.00%{opacity:0}11.25%{opacity:1}13.50%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a44{0.00%{opacity:0}13.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a45{0.00%{opacity:0}13.50%{opacity:1}15.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a46{0.00%{opacity:0}15.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a47{0.00%{opacity:0}15.76%{opacity:1}18.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a48{0.00%{opacity:0}18.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a49{0.00%{opacity:0}18.01%{opacity:1}20.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a50{0.00%{opacity:0}20.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a51{0.00%{opacity:0}20.26%{opacity:1}22.51%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a52{0.00%{opacity:0}22.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a53{0.00%{opacity:0}22.51%{opacity:1}24.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a54{0.00%{opacity:0}24.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a55{0.00%{opacity:0}24.76%{opacity:1}27.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a56{0.00%{opacity:0}27.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a57{0.00%{opacity:0}27.01%{opacity:1}29.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a58{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a59{0.00%{opacity:0}29.26%{opacity:1}31.51%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a60{0.00%{opacity:0}31.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a61{0.00%{opacity:0}31.51%{opacity:1}33.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a62{0.00%{opacity:0}33.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a63{0.00%{opacity:0}33.76%{opacity:1}36.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a64{0.00%{opacity:0}36.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a65{0.00%{opacity:0}36.01%{opacity:1}38.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a66{0.00%{opacity:0}38.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a67{0.00%{opacity:0}38.26%{opacity:1}40.51%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a68{0.00%{opacity:0}40.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a69{0.00%{opacity:0}40.51%{opacity:1}42.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a70{0.00%{opacity:0}42.77%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a71{0.00%{opacity:0}42.77%{opacity:1}45.02%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a72{0.00%{opacity:0}45.02%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a73{0.00%{opacity:0}45.02%{opacity:1}47.27%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a74{0.00%{opacity:0}47.27%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a75{0.00%{opacity:0}47.27%{opacity:1}49.52%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a76{0.00%{opacity:0}49.52%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a77{0.00%{opacity:0}49.52%{opacity:1}51.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a78{0.00%{opacity:0}51.77%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a79{0.00%{opacity:0}51.77%{opacity:1}54.02%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a80{0.00%{opacity:0}54.02%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a81{0.00%{opacity:0}54.02%{opacity:1}56.27%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a82{0.00%{opacity:0}56.27%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a83{0.00%{opacity:0}56.27%{opacity:1}58.52%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a84{0.00%{opacity:0}58.52%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a85{0.00%{opacity:0}58.52%{opacity:1}60.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a86{0.00%{opacity:0}60.77%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a87{0.00%{opacity:0}60.77%{opacity:1}63.02%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a88{0.00%{opacity:0}63.02%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a89{0.00%{opacity:0}63.02%{opacity:1}65.27%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a90{0.00%{opacity:0}65.27%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a91{0.00%{opacity:0}65.27%{opacity:1}67.52%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a92{0.00%{opacity:0}67.52%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a93{0.00%{opacity:0}67.52%{opacity:1}69.77%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a94{0.00%{opacity:0}69.77%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a95{0.00%{opacity:0}69.77%{opacity:1}72.03%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a96{0.00%{opacity:0}72.03%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a97{0.00%{opacity:0}72.03%{opacity:1}74.28%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a98{0.00%{opacity:0}74.28%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a99{0.00%{opacity:0}74.28%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a100{0.00%{opacity:0}74.28%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a101{0.00%{opacity:0}2.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a102{0.00%{opacity:0}4.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a103{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a104{0.00%{opacity:0}6.75%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a105{0.00%{opacity:0}9.00%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a106{0.00%{opacity:0}11.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a107{0.00%{opacity:0}13.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a108{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a109{0.00%{opacity:0}15.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a110{0.00%{opacity:0}18.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a111{0.00%{opacity:0}20.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a112{0.00%{opacity:0}22.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a113{0.00%{opacity:0}24.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a114{0.00%{opacity:0}27.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a115{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a116{0.00%{opacity:0}2.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a117{0.00%{opacity:0}4.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a118{0.00%{opacity:0}6.75%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a119{0.00%{opacity:0}9.00%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a120{0.00%{opacity:0}11.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a121{0.00%{opacity:0}13.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a122{0.00%{opacity:0}15.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a123{0.00%{opacity:0}18.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a124{0.00%{opacity:0}20.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a125{0.00%{opacity:0}22.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a126{0.00%{opacity:0}24.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a127{0.00%{opacity:0}27.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a128{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a129{0.00%{opacity:0}2.25%{opacity:1}9.00%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a130{0.00%{opacity:0}2.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a131{0.00%{opacity:0}9.00%{opacity:1}13.50%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a132{0.00%{opacity:0}2.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a133{0.00%{opacity:0}4.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a134{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a135{0.00%{opacity:0}13.50%{opacity:1}18.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a136{0.00%{opacity:0}4.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a137{0.00%{opacity:0}6.75%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a138{0.00%{opacity:0}18.01%{opacity:1}20.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a139{0.00%{opacity:0}6.75%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a140{0.00%{opacity:0}9.00%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a141{0.00%{opacity:0}20.26%{opacity:1}24.76%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a142{0.00%{opacity:0}9.00%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a143{0.00%{opacity:0}11.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a144{0.00%{opacity:0}24.76%{opacity:1}27.01%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a145{0.00%{opacity:0}11.25%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a146{0.00%{opacity:0}13.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a147{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a148{0.00%{opacity:0}27.01%{opacity:1}29.26%{opacity:0}93.57%{opacity:0;animation-timing-function:linear}100%{opacity:0}}@keyframes a149{0.00%{opacity:0}13.50%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a150{0.00%{opacity:0}15.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a151{0.00%{opacity:0}15.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a152{0.00%{opacity:0}18.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a153{0.00%{opacity:0}18.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a154{0.00%{opacity:0}20.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a155{0.00%{opacity:0}20.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a156{0.00%{opacity:0}22.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a157{0.00%{opacity:0}22.51%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a158{0.00%{opacity:0}24.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a159{0.00%{opacity:0}24.76%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a160{0.00%{opacity:0}27.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a161{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a162{0.00%{opacity:0}27.01%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}@keyframes a163{0.00%{opacity:0}29.26%{opacity:1}93.57%{opacity:1;animation-timing-function:linear}100%{opacity:0}}/*]]>*/</style>
+<defs>
+</defs>
+<path d="M500,16 L500,474" class="divider" />
+<text x="250" y="30" font-size="22" class="title">greedy</text>
+<text x="250" y="62" font-size="17" class="small muted">take the largest coin that fits</text>
+<g class="track" style="opacity:0;animation-name:a0">
+<text x="250" y="112" font-size="22">99¢ left, 0 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a1">
+<text x="250" y="112" font-size="22">65¢ left, 1 coin</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a2">
+<text x="250" y="112" font-size="22">31¢ left, 2 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a3">
+<text x="250" y="112" font-size="22">30¢ left, 3 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a4">
+<text x="250" y="112" font-size="22">29¢ left, 4 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a5">
+<text x="250" y="112" font-size="22">28¢ left, 5 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a6">
+<text x="250" y="112" font-size="22">27¢ left, 6 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a7">
+<text x="250" y="112" font-size="22">26¢ left, 7 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a8">
+<text x="250" y="112" font-size="22">25¢ left, 8 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a9">
+<text x="250" y="112" font-size="22">24¢ left, 9 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a10">
+<text x="250" y="112" font-size="22">23¢ left, 10 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a11">
+<text x="250" y="112" font-size="22">22¢ left, 11 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a12">
+<text x="250" y="112" font-size="22">21¢ left, 12 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a13">
+<text x="250" y="112" font-size="22">20¢ left, 13 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a14">
+<text x="250" y="112" font-size="22">19¢ left, 14 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a15">
+<text x="250" y="112" font-size="22">18¢ left, 15 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a16">
+<text x="250" y="112" font-size="22">17¢ left, 16 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a17">
+<text x="250" y="112" font-size="22">16¢ left, 17 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a18">
+<text x="250" y="112" font-size="22">15¢ left, 18 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a19">
+<text x="250" y="112" font-size="22">14¢ left, 19 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a20">
+<text x="250" y="112" font-size="22">13¢ left, 20 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a21">
+<text x="250" y="112" font-size="22">12¢ left, 21 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a22">
+<text x="250" y="112" font-size="22">11¢ left, 22 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a23">
+<text x="250" y="112" font-size="22">10¢ left, 23 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a24">
+<text x="250" y="112" font-size="22">9¢ left, 24 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a25">
+<text x="250" y="112" font-size="22">8¢ left, 25 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a26">
+<text x="250" y="112" font-size="22">7¢ left, 26 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a27">
+<text x="250" y="112" font-size="22">6¢ left, 27 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a28">
+<text x="250" y="112" font-size="22">5¢ left, 28 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a29">
+<text x="250" y="112" font-size="22">4¢ left, 29 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a30">
+<text x="250" y="112" font-size="22">3¢ left, 30 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a31">
+<text x="250" y="112" font-size="22">2¢ left, 31 coins</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a32">
+<text x="250" y="112" font-size="22">1¢ left, 32 coins</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a33">
+<text x="250" y="112" font-size="22">0¢ left, 33 coins</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a34">
+<circle cx="68.0" cy="168" r="20" class="chip" />
+<text x="68.0" y="168" font-size="17" class="small">34</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a35">
+<circle cx="68.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a36">
+<circle cx="120.0" cy="168" r="20" class="chip" />
+<text x="120.0" y="168" font-size="17" class="small">34</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a37">
+<circle cx="120.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a38">
+<circle cx="172.0" cy="168" r="20" class="chip" />
+<text x="172.0" y="168" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a39">
+<circle cx="172.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a40">
+<circle cx="224.0" cy="168" r="20" class="chip" />
+<text x="224.0" y="168" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a41">
+<circle cx="224.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a42">
+<circle cx="276.0" cy="168" r="20" class="chip" />
+<text x="276.0" y="168" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a43">
+<circle cx="276.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a44">
+<circle cx="328.0" cy="168" r="20" class="chip" />
+<text x="328.0" y="168" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a45">
+<circle cx="328.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a46">
+<circle cx="380.0" cy="168" r="20" class="chip" />
+<text x="380.0" y="168" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a47">
+<circle cx="380.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a48">
+<circle cx="432.0" cy="168" r="20" class="chip" />
+<text x="432.0" y="168" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a49">
+<circle cx="432.0" cy="168" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a50">
+<circle cx="68.0" cy="220" r="20" class="chip" />
+<text x="68.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a51">
+<circle cx="68.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a52">
+<circle cx="120.0" cy="220" r="20" class="chip" />
+<text x="120.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a53">
+<circle cx="120.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a54">
+<circle cx="172.0" cy="220" r="20" class="chip" />
+<text x="172.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a55">
+<circle cx="172.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a56">
+<circle cx="224.0" cy="220" r="20" class="chip" />
+<text x="224.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a57">
+<circle cx="224.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a58">
+<circle cx="276.0" cy="220" r="20" class="chip" />
+<text x="276.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a59">
+<circle cx="276.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a60">
+<circle cx="328.0" cy="220" r="20" class="chip" />
+<text x="328.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a61">
+<circle cx="328.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a62">
+<circle cx="380.0" cy="220" r="20" class="chip" />
+<text x="380.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a63">
+<circle cx="380.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a64">
+<circle cx="432.0" cy="220" r="20" class="chip" />
+<text x="432.0" y="220" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a65">
+<circle cx="432.0" cy="220" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a66">
+<circle cx="68.0" cy="272" r="20" class="chip" />
+<text x="68.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a67">
+<circle cx="68.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a68">
+<circle cx="120.0" cy="272" r="20" class="chip" />
+<text x="120.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a69">
+<circle cx="120.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a70">
+<circle cx="172.0" cy="272" r="20" class="chip" />
+<text x="172.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a71">
+<circle cx="172.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a72">
+<circle cx="224.0" cy="272" r="20" class="chip" />
+<text x="224.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a73">
+<circle cx="224.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a74">
+<circle cx="276.0" cy="272" r="20" class="chip" />
+<text x="276.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a75">
+<circle cx="276.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a76">
+<circle cx="328.0" cy="272" r="20" class="chip" />
+<text x="328.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a77">
+<circle cx="328.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a78">
+<circle cx="380.0" cy="272" r="20" class="chip" />
+<text x="380.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a79">
+<circle cx="380.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a80">
+<circle cx="432.0" cy="272" r="20" class="chip" />
+<text x="432.0" y="272" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a81">
+<circle cx="432.0" cy="272" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a82">
+<circle cx="68.0" cy="324" r="20" class="chip" />
+<text x="68.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a83">
+<circle cx="68.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a84">
+<circle cx="120.0" cy="324" r="20" class="chip" />
+<text x="120.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a85">
+<circle cx="120.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a86">
+<circle cx="172.0" cy="324" r="20" class="chip" />
+<text x="172.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a87">
+<circle cx="172.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a88">
+<circle cx="224.0" cy="324" r="20" class="chip" />
+<text x="224.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a89">
+<circle cx="224.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a90">
+<circle cx="276.0" cy="324" r="20" class="chip" />
+<text x="276.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a91">
+<circle cx="276.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a92">
+<circle cx="328.0" cy="324" r="20" class="chip" />
+<text x="328.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a93">
+<circle cx="328.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a94">
+<circle cx="380.0" cy="324" r="20" class="chip" />
+<text x="380.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a95">
+<circle cx="380.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a96">
+<circle cx="432.0" cy="324" r="20" class="chip" />
+<text x="432.0" y="324" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:0;animation-name:a97">
+<circle cx="432.0" cy="324" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a98">
+<circle cx="68.0" cy="376" r="20" class="chip" />
+<text x="68.0" y="376" font-size="17" class="small">1</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a99">
+<circle cx="68.0" cy="376" r="24" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a100">
+<text x="250" y="462" font-size="22" class="bad">33 coins</text>
+</g>
+<text x="750" y="30" font-size="22" class="title">breadth-first search</text>
+<text x="750" y="62" font-size="17" class="small muted">try every coin, one layer at a time</text>
+<g class="track" style="opacity:1;animation-name:a101">
+<path d="M730.1405814145978,125.47603404009435 L629.8594185854022,193.52396595990564" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a102">
+<path d="M750.0,136.0 L750.0,183.0" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a103">
+<path d="M750.0,136.0 L750.0,183.0" class="path-edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a104">
+<path d="M769.8594185854022,125.47603404009435 L870.1405814145978,193.52396595990564" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a105">
+<path d="M595.503539349747,226.12727446908383 L552.496460650253,282.87272553091617" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a106">
+<path d="M614.9442515451962,230.48519483968198 L625.0557484548038,278.514805160318" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a107">
+<path d="M743.2148897974461,230.02090961580794 L728.7851102025539,278.97909038419203" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a108">
+<path d="M743.2148897974461,230.02090961580794 L728.7851102025539,278.97909038419203" class="path-edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a109">
+<path d="M763.4093506614299,226.9045048880601 L800.5906493385701,282.0954951119399" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a110">
+<path d="M893.985968277543,230.66668664791126 L902.014031722457,278.33331335208874" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a111">
+<path d="M533.5321234281735,325.58045968463983 L524.4678765718265,373.41954031536017" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a112">
+<path d="M552.7483686663555,320.93371653113206 L597.2516313336445,378.06628346886794" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a113">
+<path d="M644.7483686663555,320.93371653113206 L689.2516313336445,378.06628346886794" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a114">
+<path d="M736.7483686663555,320.93371653113206 L781.2516313336445,378.06628346886794" class="edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a115">
+<path d="M736.7483686663555,320.93371653113206 L781.2516313336445,378.06628346886794" class="path-edge" />
+</g>
+<g class="track" style="opacity:1;animation-name:a116">
+<text x="689.9727472663589" y="174.19668018200247" font-size="17" class="small muted">−1</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a117">
+<text x="770.3" y="159.5" font-size="17" class="small muted">−33</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a118">
+<text x="831.580694864612" y="142.43371283109798" font-size="17" class="small muted">−34</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a119">
+<text x="588.5552619661719" y="265.5313564375197" font-size="17" class="small muted">−1</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a120">
+<text x="641.2569399063661" y="250.02485475655445" font-size="17" class="small muted">−34</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a121">
+<text x="757.1781718834204" y="260.7419875024818" font-size="17" class="small muted">−33</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a122">
+<text x="800.6092747096931" y="241.9632254587331" font-size="17" class="small muted">−34</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a123">
+<text x="919.2006275989312" y="250.92936798333793" font-size="17" class="small muted">−34</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a124">
+<text x="545.3138151493854" y="352.5910386598835" font-size="17" class="small muted">−1</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a125">
+<text x="592.587548896311" y="335.800225070242" font-size="17" class="small muted">−34</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a126">
+<text x="684.587548896311" y="335.800225070242" font-size="17" class="small muted">−34</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a127">
+<text x="776.587548896311" y="335.800225070242" font-size="17" class="small muted">−33</text>
+</g>
+<g style="opacity:1">
+<circle cx="750.0" cy="112" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a128">
+<circle cx="750.0" cy="112" r="24" class="path-node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a129">
+<circle cx="750.0" cy="112" r="29" class="ring" />
+</g>
+<g style="opacity:1">
+<text x="750.0" y="112" font-size="17" class="small">99</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a130">
+<circle cx="610.0" cy="207" r="24" class="node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a131">
+<circle cx="610.0" cy="207" r="29" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a132">
+<text x="610.0" y="207" font-size="17" class="small">98</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a133">
+<circle cx="750.0" cy="207" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a134">
+<circle cx="750.0" cy="207" r="24" class="path-node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a135">
+<circle cx="750.0" cy="207" r="29" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a136">
+<text x="750.0" y="207" font-size="17" class="small">66</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a137">
+<circle cx="890.0" cy="207" r="24" class="node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a138">
+<circle cx="890.0" cy="207" r="29" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a139">
+<text x="890.0" y="207" font-size="17" class="small">65</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a140">
+<circle cx="538.0" cy="302" r="24" class="node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a141">
+<circle cx="538.0" cy="302" r="29" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a142">
+<text x="538.0" y="302" font-size="17" class="small">97</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a143">
+<circle cx="630.0" cy="302" r="24" class="node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a144">
+<circle cx="630.0" cy="302" r="29" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a145">
+<text x="630.0" y="302" font-size="17" class="small">64</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a146">
+<circle cx="722.0" cy="302" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a147">
+<circle cx="722.0" cy="302" r="24" class="path-node" />
+</g>
+<g class="track" style="opacity:0;animation-name:a148">
+<circle cx="722.0" cy="302" r="29" class="ring" />
+</g>
+<g class="track" style="opacity:1;animation-name:a149">
+<text x="722.0" y="302" font-size="17" class="small">33</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a150">
+<circle cx="814.0" cy="302" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a151">
+<text x="814.0" y="302" font-size="17" class="small">32</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a152">
+<circle cx="906.0" cy="302" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a153">
+<text x="906.0" y="302" font-size="17" class="small">31</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a154">
+<circle cx="520.0" cy="397" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a155">
+<text x="520.0" y="397" font-size="17" class="small">96</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a156">
+<circle cx="612.0" cy="397" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a157">
+<text x="612.0" y="397" font-size="17" class="small">63</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a158">
+<circle cx="704.0" cy="397" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a159">
+<text x="704.0" y="397" font-size="17" class="small">30</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a160">
+<circle cx="796.0" cy="397" r="24" class="node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a161">
+<circle cx="796.0" cy="397" r="24" class="path-node" />
+</g>
+<g class="track" style="opacity:1;animation-name:a162">
+<text x="796.0" y="397" font-size="17" class="small">0</text>
+</g>
+<g class="track" style="opacity:1;animation-name:a163">
+<text x="750" y="462" font-size="22" class="good">3 coins</text>
+</g>
+</svg>

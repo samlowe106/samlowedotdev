@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="754.0" viewBox="0 0 1000 754.0">
+<style>/*<![CDATA[*/:root{--ink:#626f80;--line:#c0c5cc;--progress:#956500;--finished:#24753c;--hot:#46758d;--write:#8652ad;}@media(prefers-color-scheme:dark){:root{--ink:#99a5b5;--line:#4d525a;--progress:#e6b84f;--finished:#63d58a;--hot:#59b9e6;--write:#c18aeb;}}text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:16px;fill:var(--ink);text-anchor:middle;dominant-baseline:central}.lane-title{font-weight:bold}.muted{fill:var(--line)}.guide{stroke:var(--line);stroke-width:1;stroke-dasharray:2 6}.loop{fill:none;stroke:var(--ink);stroke-width:2}.run{fill:var(--hot);fill-opacity:.2;stroke:var(--hot);stroke-width:2}.done{fill:var(--finished);fill-opacity:.2;stroke:var(--finished);stroke-width:2}.io{fill:var(--write);fill-opacity:.25;stroke:var(--write);stroke-width:2}.wait{stroke:var(--line);stroke-width:2;stroke-dasharray:5 5}.wire{fill:none;stroke:var(--hot);stroke-width:2}.head{fill:var(--hot)}/*]]>*/</style>
+<defs>
+</defs>
+<text x="125.0" y="28" font-size="16" class="lane-title">event loop</text>
+<path d="M125.0,48 L125.0,742.0" class="guide" />
+<text x="375.0" y="28" font-size="16" class="lane-title">task A</text>
+<path d="M375.0,48 L375.0,742.0" class="guide" />
+<text x="625.0" y="28" font-size="16" class="lane-title">other tasks</text>
+<path d="M625.0,48 L625.0,742.0" class="guide" />
+<text x="875.0" y="28" font-size="16" class="lane-title">operating system</text>
+<path d="M875.0,48 L875.0,742.0" class="guide" />
+<text x="375.0" y="92" font-size="16" class="muted">ready</text>
+<text x="375.0" y="568" font-size="16" class="muted">ready</text>
+<path d="M375.0,186.0 L375.0,554" class="wait" />
+<text x="419.0" y="370.0" font-size="16" class="muted">waiting</text>
+<rect x="773.0" y="134.0" width="204" height="324.0" rx="8" class="io" />
+<text x="875.0" y="296.0" font-size="16">A's file I/O</text>
+<text x="875.0" y="474.0" font-size="16" class="muted">done</text>
+<path d="M125.0,118.0 L366.01837556947936,133.4251760364467" class="wire" />
+<path d="M375.0,134.0 L365.70222238952505,138.36506947323304 L366.3345287494337,128.48528259966034 Z" class="head" />
+<path d="M375.0,186.0 L133.9816244305206,201.4251760364467" class="wire" />
+<path d="M125.0,202.0 L133.6654712505663,196.48528259966034 L134.29777761047492,206.36506947323304 Z" class="head" />
+<path d="M125.0,254.0 L616.0046044640732,269.71214734285036" class="wire" />
+<path d="M625.0,270.0 L615.8462855026409,274.6596148876101 L616.1629234255055,264.76467979809064 Z" class="head" />
+<path d="M625.0,322.0 L133.9953955359268,337.71214734285036" class="wire" />
+<path d="M125.0,338.0 L133.8370765744945,332.76467979809064 L134.15371449735912,342.6596148876101 Z" class="head" />
+<path d="M125.0,390.0 L616.0046044640732,405.71214734285036" class="wire" />
+<path d="M625.0,406.0 L615.8462855026409,410.6596148876101 L616.1629234255055,400.76467979809064 Z" class="head" />
+<path d="M625.0,458.0 L133.9953955359268,473.71214734285036" class="wire" />
+<path d="M125.0,474.0 L133.8370765744945,468.76467979809064 L134.15371449735912,478.6596148876101 Z" class="head" />
+<path d="M125.0,526.0 L125.0,533.0" class="wire" />
+<path d="M125.0,542.0 L120.05,533.0 L129.95,533.0 Z" class="head" />
+<path d="M125.0,594.0 L366.01837556947936,609.4251760364467" class="wire" />
+<path d="M375.0,610.0 L365.70222238952505,614.365069473233 L366.3345287494337,604.4852825996604 Z" class="head" />
+<path d="M375.0,662.0 L375.0,669.0" class="wire" />
+<path d="M375.0,678.0 L370.05,669.0 L379.95,669.0 Z" class="head" />
+<rect x="23.0" y="66.0" width="204" height="52" rx="8" class="loop" />
+<text x="125.0" y="81" font-size="16">A is ready,</text>
+<text x="125.0" y="103" font-size="16">run it</text>
+<rect x="273.0" y="134.0" width="204" height="52" rx="8" class="run" />
+<text x="375.0" y="149" font-size="16">runs until</text>
+<text x="375.0" y="171" font-size="16">await write(...)</text>
+<rect x="23.0" y="202.0" width="204" height="52" rx="8" class="loop" />
+<text x="125.0" y="217" font-size="16">A is waiting, not</text>
+<text x="125.0" y="239" font-size="16">in ready queue</text>
+<rect x="523.0" y="270.0" width="204" height="52" rx="8" class="run" />
+<text x="625.0" y="285" font-size="16">other ready</text>
+<text x="625.0" y="307" font-size="16">tasks run</text>
+<rect x="23.0" y="338.0" width="204" height="52" rx="8" class="loop" />
+<text x="125.0" y="353" font-size="16">anything finished?</text>
+<text x="125.0" y="375" font-size="16">no, do other work</text>
+<rect x="523.0" y="406.0" width="204" height="52" rx="8" class="run" />
+<text x="625.0" y="421" font-size="16">other ready</text>
+<text x="625.0" y="443" font-size="16">tasks run</text>
+<rect x="23.0" y="474.0" width="204" height="52" rx="8" class="loop" />
+<text x="125.0" y="489" font-size="16">anything finished?</text>
+<text x="125.0" y="511" font-size="16">yes: A's write</text>
+<rect x="23.0" y="542.0" width="204" height="52" rx="8" class="loop" />
+<text x="125.0" y="557" font-size="16">A is ready again,</text>
+<text x="125.0" y="579" font-size="16">run it</text>
+<rect x="273.0" y="610.0" width="204" height="52" rx="8" class="run" />
+<text x="375.0" y="625" font-size="16">resumes after</text>
+<text x="375.0" y="647" font-size="16">its await</text>
+<rect x="273.0" y="678.0" width="204" height="52" rx="8" class="done" />
+<text x="375.0" y="693" font-size="16">returns its</text>
+<text x="375.0" y="715" font-size="16">result to gather</text>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="392" viewBox="0 0 1000 392">
+<style>/*<![CDATA[*/:root{--ink:#626f80;--line:#c0c5cc;--progress:#956500;--finished:#24753c;--hot:#46758d;--api:#46758d;--download:#397a76;--write:#8652ad;--fail:#b42318;}@media(prefers-color-scheme:dark){:root{--ink:#99a5b5;--line:#4d525a;--progress:#e6b84f;--finished:#63d58a;--hot:#59b9e6;--api:#59b9e6;--download:#83b5ae;--write:#c18aeb;--fail:#f87171;}}text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:17px;fill:var(--ink);dominant-baseline:central}.mid{text-anchor:middle}.end{text-anchor:end}.muted{fill:var(--line)}.title{font-weight:bold}.api{fill:var(--api);stroke:var(--api)}.download{fill:var(--download);stroke:var(--download)}.write{fill:var(--write);stroke:var(--write)}.seg{fill-opacity:.35;stroke-width:1.5}.wait{fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:4 4}.axis,.tick{stroke:var(--line);stroke-width:1.5}.finish{stroke:var(--ink);stroke-width:2;stroke-dasharray:6 4}.box{fill:none;stroke:var(--ink);stroke-width:2}.fail{fill:none;stroke:var(--fail);stroke-width:2.5}.fail-text{fill:var(--fail)}.small{font-size:15px}.wire{fill:none;stroke:var(--line);stroke-width:2}.head{fill:var(--line)}/*]]>*/</style>
+<defs>
+</defs>
+<text x="280" y="24" font-size="17" class="muted">order of events, from left to right</text>
+<rect x="277.0" y="66" width="356.0" height="238" rx="8" class="fail" />
+<text x="455.0" y="50" font-size="15" class="fail-text mid small">all three check if Sunset.jpg exists</text>
+<rect x="637.0" y="66" width="356.0" height="238" rx="8" class="fail" />
+<text x="815.0" y="50" font-size="15" class="fail-text mid small">all three (over)write Sunset.jpg</text>
+<text x="118" y="111.0" font-size="17" class="end">image 1</text>
+<rect x="140" y="89.0" width="120" height="44" rx="6" class="seg download" />
+<text x="200.0" y="111.0" font-size="17" class="mid">download</text>
+<text x="118" y="185.0" font-size="17" class="end">image 2</text>
+<rect x="140" y="163.0" width="120" height="44" rx="6" class="seg download" />
+<text x="200.0" y="185.0" font-size="17" class="mid">download</text>
+<text x="118" y="259.0" font-size="17" class="end">image 3</text>
+<rect x="140" y="237.0" width="120" height="44" rx="6" class="seg download" />
+<text x="200.0" y="259.0" font-size="17" class="mid">download</text>
+<rect x="280" y="83.0" width="110" height="56" rx="6" class="box" />
+<text x="335.0" y="100.0" font-size="15" class="mid">Sunset.jpg</text>
+<text x="335.0" y="122.0" font-size="15" class="mid">taken? no</text>
+<rect x="400" y="157.0" width="110" height="56" rx="6" class="box" />
+<text x="455.0" y="174.0" font-size="15" class="mid">Sunset.jpg</text>
+<text x="455.0" y="196.0" font-size="15" class="mid">taken? no</text>
+<rect x="520" y="231.0" width="110" height="56" rx="6" class="box" />
+<text x="575.0" y="248.0" font-size="15" class="mid">Sunset.jpg</text>
+<text x="575.0" y="270.0" font-size="15" class="mid">taken? no</text>
+<rect x="640" y="83.0" width="110" height="56" rx="6" class="box" />
+<text x="695.0" y="100.0" font-size="15" class="mid">write</text>
+<text x="695.0" y="122.0" font-size="15" class="mid">Sunset.jpg</text>
+<rect x="760" y="157.0" width="110" height="56" rx="6" class="fail" />
+<text x="815.0" y="174.0" font-size="15" class="mid">write</text>
+<text x="815.0" y="196.0" font-size="15" class="mid">Sunset.jpg</text>
+<rect x="880" y="231.0" width="110" height="56" rx="6" class="fail" />
+<text x="935.0" y="248.0" font-size="15" class="mid">write</text>
+<text x="935.0" y="270.0" font-size="15" class="mid">Sunset.jpg</text>
+<text x="18" y="328" font-size="17">expected: Sunset.jpg, Sunset (1).jpg, Sunset (2).jpg</text>
+<text x="18" y="356" font-size="17" class="fail-text">got: Sunset.jpg, holding image 3; images 1 and 2 were overwritten</text>
+</svg>

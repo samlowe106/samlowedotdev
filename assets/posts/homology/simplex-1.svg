@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 190" style="display: block; width: 100%; height: auto;" focusable="false">
+<style>:root { --palette-sky: #46758d; color: #626f80; } @media (prefers-color-scheme: dark) { :root { --palette-sky: #59b9e6; color: #99a5b5; } }</style>
+  <g fill="none" stroke="currentColor" stroke-width="1.25" opacity=".65">
+    <path d="M30 170V15 M30 170H205 M26 21 30 15 34 21 M199 166 205 170 199 174"/>
+  </g>
+  <g fill="currentColor" font-size="14" font-family="serif">
+    <text x="15" y="185">0</text>
+    <text x="190" y="155">x₀</text>
+    <text x="10" y="22">x₁</text>
+    <text x="156" y="158">e₀</text>
+    <text x="40" y="48">e₁</text>
+  </g>
+  <path d="M30 45 165 170" fill="none" stroke="var(--palette-sky)" stroke-width="3"/>
+  <g fill="var(--palette-sky)">
+    <circle cx="30" cy="45" r="4"/>
+    <circle cx="165" cy="170" r="4"/>
+  </g>
+</svg>

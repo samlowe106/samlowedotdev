@@ -1,0 +1,140 @@
+/*
+  Self-hosted web fonts.
+
+  Chirpy loads these from Google Fonts by default. They're served from this repo
+  instead for three reasons: no third-party request on every page load, no DNS +
+  TLS handshake to another origin before text can render, and full control over
+  `font-display`.
+
+  `swap` is deliberate. `optional` (the usual anti-layout-shift choice) is
+  specified to be non-deterministic: if the font misses a ~100ms window the
+  browser renders the whole page in the fallback and never swaps, so the site
+  rendered in a different font on some loads. Self-hosted and preloaded, these
+  arrive before first paint in practice, so `swap` costs nothing here.
+
+  Only the latin and latin-ext subsets are included; the site is English. Golos
+  Text also ships cyrillic subsets, which are omitted for the same reason.
+
+  Two roles, both set in _sass/custom/_variables.scss:
+
+    Martian Mono  headings.  Weight 400, which is Chirpy's own; `<strong>`
+                  inside a heading resolves to 700 and bolds the portfolio and
+                  experience entry titles.
+    Golos Text    body.      400, 600 (the theme's `label` mixin, TOC active
+                  item, gallery captions) and 700 (`<strong>` in prose).
+
+  Both families are variable, so each is ONE file per subset covering its whole
+  weight range, not one file per weight. This matters: the previous version
+  declared Golos three times at 400/600/700, and because a css2 request for a
+  single weight still hands back the variable font, all three files were byte
+  identical. Every page fetched the same 37KB twice over. A weight *range* in the
+  descriptor is what tells the browser to vary the wght axis instead, so the
+  ranges below must stay within what each font actually carries:
+
+    Martian Mono  wght 100..800
+    Golos Text    wght 400..900
+
+  Martian Mono's name table calls it "Martian Mono SemiExpanded". The upstream
+  family has a width axis, and this is the instance Google serves under the plain
+  "Martian Mono" name with the width pinned; the file carries no wdth axis, so
+  there is nothing here to set.
+
+  Martian Mono carries a `size-adjust`, which Golos does not. Apparent size is
+  governed by x-height, not by the declared font-size, and Martian draws a very
+  large letter on its em: x-height 0.600 at weight 400, where Space Mono is 0.496.
+  Left alone it would render headings a fifth larger than the type scale asks for.
+  82.7% is 0.496/0.600, which matches Space Mono's x-height exactly.
+
+  The 400 x-height is the right one to match against, because headings are set at
+  400. Martian's x-height grows slightly with weight, to 0.615 at 700, so the
+  `<strong>` inside an entry title runs about 2% larger than this number targets.
+  There is no single value that matches both; 400 is the common case.
+
+  Two consequences worth knowing before anyone changes this number:
+
+    Weight. Martian's raw 400 stroke is 0.100 em; scaled it is 0.081, against
+    Space Mono's 0.072 and Sometype Mono's 0.070 as that was shipped. So headings
+    read about 12% heavier than under Space Mono and 16% heavier than under
+    Sometype, which is the whole reason for the change.
+
+    Width. Scaled pitch is 0.579 em against Space Mono's 0.612, so this is
+    actually the NARROWER face at matched apparent size, by about 5%. Martian
+    reads as wide in a specimen only because it is drawn on a big em; normalise
+    for size and it sets tighter than what it replaced. Headings wrap later than
+    they did under Space Mono, not sooner.
+
+  Caps land at 0.662 against Space Mono's 0.700, since Martian runs a high
+  x-height relative to its caps. That is inherent to the face, not something the
+  adjust can fix: matching caps instead would need 87.5% and would then overshoot
+  the x-height by 6%.
+
+  There is deliberately no webfont for code. Code is set in whatever mono the
+  reader's own machine uses, so a programmer sees the face they already read all
+  day; see the --bs-font-monospace stack in _sass/custom/_base.scss.
+
+  Neither family is loaded in italic. Neither has one drawn: Martian Mono ships
+  upright only, and Golos Text has no italic upstream or here, so `<em>` in body
+  copy is a synthesised oblique -- as it was under Lato and Source Sans Pro
+  before.
+
+  Martian Mono (Roman Shamin, Evil Martians) and Golos Text are both SIL Open
+  Font License 1.1, which permits redistribution. Generated from the Google Fonts
+  css2 API.
+*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'Martian Mono';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  size-adjust: 82.7%;
+  src: url('/assets/lib/fonts/files/martian-mono-var-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Martian Mono';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  size-adjust: 82.7%;
+  src: url('/assets/lib/fonts/files/martian-mono-var-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('/assets/lib/fonts/files/golos-text-var-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('/assets/lib/fonts/files/golos-text-var-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Press Start 2P (CodeMan38), SIL Open Font License 1.1. Used only for the
+   Wonder Mail Generator's "rescue description" box (collections/_tools/wondermail.md),
+   not a site-wide face -- single weight, basic Latin + Latin-1 is all that box
+   needs. It has no glyphs for ♂/♀/…/★/☆, so those fall through to the next
+   font in the stack; that's an accepted tradeoff, not a bug, see
+   _sass/custom/_wondermail.scss. Generated from the Google Fonts css2 API. */
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/lib/fonts/files/press-start-2p-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF;
+}
